@@ -1,0 +1,435 @@
+[0.000000] (-) TimerEvent: {}
+[0.001297] (-) JobUnselected: {'identifier': 'robot_pose_publisher'}
+[0.001465] (-) JobUnselected: {'identifier': 'sdv_joystick'}
+[0.001900] (-) JobUnselected: {'identifier': 'sdv_nav'}
+[0.002130] (-) JobUnselected: {'identifier': 'sdv_process'}
+[0.002212] (-) JobUnselected: {'identifier': 'sdv_scripts'}
+[0.002260] (-) JobUnselected: {'identifier': 'sdv_serial'}
+[0.002586] (-) JobUnselected: {'identifier': 'sick_scan_xd'}
+[0.002650] (serial_driver) JobQueued: {'identifier': 'serial_driver', 'dependencies': OrderedDict()}
+[0.002730] (serial_driver) JobStarted: {'identifier': 'serial_driver'}
+[0.022376] (serial_driver) JobProgress: {'identifier': 'serial_driver', 'progress': 'cmake'}
+[0.023668] (serial_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/cafsanchezdi/ros2_ws/src/serial_driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/cafsanchezdi/ros2_ws/install/serial_driver'], 'cwd': '/home/cafsanchezdi/ros2_ws/build/serial_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cafsanchezdi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/cafsanchezdi/ros2_ws/install/sdv_serial/share', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cafsanchezdi/ros2_ws/install/serial_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cafsanchezdi', 'OLDPWD': '/home/cafsanchezdi/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2960', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6df09a76acf35a9c450b440367c5cab8', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/cafsanchezdi/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cafsanchezdi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/cafsanchezdi/ros2_ws/install/sdv_serial/lib/x86_64-linux-gnu/pkgconfig:/home/cafsanchezdi/ros2_ws/install/sdv_serial/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cafsanchezdi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sdvun2-ros2:@/tmp/.ICE-unix/2960,unix/sdvun2-ros2:/tmp/.ICE-unix/2960', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/91b57584_8548_4ad1_be29_c5a920d25e9d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WIMW22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cafsanchezdi/ros2_ws/install/serial_driver:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cafsanchezdi/ros2_ws/build/serial_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6df09a76acf35a9c450b440367c5cab8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/cafsanchezdi/ros2_ws/install/serial_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.098481] (-) TimerEvent: {}
+[0.124361] (serial_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.198624] (-) TimerEvent: {}
+[0.224399] (serial_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.258372] (serial_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.298755] (-) TimerEvent: {}
+[0.399149] (-) TimerEvent: {}
+[0.412167] (serial_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.430133] (serial_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.430583] (serial_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.431361] (serial_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.448148] (serial_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499306] (-) TimerEvent: {}
+[0.599708] (-) TimerEvent: {}
+[0.606467] (serial_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.631871] (serial_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.633152] (serial_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.634640] (serial_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.641364] (serial_driver) StdoutLine: {'line': b'-- Found ament_cmake_auto: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)\n'}
+[0.699843] (-) TimerEvent: {}
+[0.800293] (-) TimerEvent: {}
+[0.900654] (-) TimerEvent: {}
+[0.912821] (serial_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.000806] (-) TimerEvent: {}
+[1.045600] (serial_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.100967] (-) TimerEvent: {}
+[1.201378] (-) TimerEvent: {}
+[1.301717] (-) TimerEvent: {}
+[1.402152] (-) TimerEvent: {}
+[1.404859] (serial_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.439688] (serial_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.475457] (serial_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.502265] (-) TimerEvent: {}
+[1.519543] (serial_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.602387] (-) TimerEvent: {}
+[1.683109] (serial_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.690417] (serial_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.702501] (-) TimerEvent: {}
+[1.802822] (-) TimerEvent: {}
+[1.850337] (serial_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.884750] (serial_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.902955] (-) TimerEvent: {}
+[1.928389] (serial_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.003111] (-) TimerEvent: {}
+[2.103457] (-) TimerEvent: {}
+[2.153615] (serial_driver) StdoutLine: {'line': b'-- Found asio_cmake_module: 1.2.0 (/opt/ros/jazzy/share/asio_cmake_module/cmake)\n'}
+[2.155889] (serial_driver) StdoutLine: {'line': b'-- Found ASIO: /usr/include  \n'}
+[2.203582] (-) TimerEvent: {}
+[2.303977] (-) TimerEvent: {}
+[2.324950] (serial_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.386652] (serial_driver) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.390919] (serial_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.404145] (-) TimerEvent: {}
+[2.504541] (-) TimerEvent: {}
+[2.536013] (serial_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.538019] (serial_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.558403] (serial_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.561643] (serial_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.562736] (serial_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/cafsanchezdi/ros2_ws/src/serial_driver/include\n'}
+[2.562959] (serial_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.565503] (serial_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.565725] (serial_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.567036] (serial_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.567276] (serial_driver) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.568706] (serial_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.570118] (serial_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.572719] (serial_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.573026] (serial_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.574311] (serial_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.582106] (serial_driver) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.604672] (-) TimerEvent: {}
+[2.700719] (serial_driver) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.704786] (-) TimerEvent: {}
+[2.722362] (serial_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/cafsanchezdi/ros2_ws/build/serial_driver\n'}
+[2.741029] (serial_driver) CommandEnded: {'returncode': 0}
+[2.741938] (serial_driver) JobProgress: {'identifier': 'serial_driver', 'progress': 'build'}
+[2.743245] (serial_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cafsanchezdi/ros2_ws/build/serial_driver', '--', '-j4', '-l4'], 'cwd': '/home/cafsanchezdi/ros2_ws/build/serial_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cafsanchezdi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/cafsanchezdi/ros2_ws/install/sdv_serial/share', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cafsanchezdi/ros2_ws/install/serial_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cafsanchezdi', 'OLDPWD': '/home/cafsanchezdi/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2960', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6df09a76acf35a9c450b440367c5cab8', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/cafsanchezdi/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cafsanchezdi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/cafsanchezdi/ros2_ws/install/sdv_serial/lib/x86_64-linux-gnu/pkgconfig:/home/cafsanchezdi/ros2_ws/install/sdv_serial/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cafsanchezdi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sdvun2-ros2:@/tmp/.ICE-unix/2960,unix/sdvun2-ros2:/tmp/.ICE-unix/2960', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/91b57584_8548_4ad1_be29_c5a920d25e9d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WIMW22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cafsanchezdi/ros2_ws/install/serial_driver:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cafsanchezdi/ros2_ws/build/serial_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6df09a76acf35a9c450b440367c5cab8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/cafsanchezdi/ros2_ws/install/serial_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.804979] (-) TimerEvent: {}
+[2.845998] (serial_driver) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/serial_bridge.dir/rclcpp_components/node_main_serial_bridge.cpp.o\x1b[0m\n'}
+[2.846622] (serial_driver) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.848060] (serial_driver) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/serial_driver.dir/src/serial_port.cpp.o\x1b[0m\n'}
+[2.848375] (serial_driver) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.907161] (-) TimerEvent: {}
+[3.007597] (-) TimerEvent: {}
+[3.108089] (-) TimerEvent: {}
+[3.208552] (-) TimerEvent: {}
+[3.309042] (-) TimerEvent: {}
+[3.409522] (-) TimerEvent: {}
+[3.512342] (-) TimerEvent: {}
+[3.612858] (-) TimerEvent: {}
+[3.713348] (-) TimerEvent: {}
+[3.813831] (-) TimerEvent: {}
+[3.914330] (-) TimerEvent: {}
+[4.017166] (-) TimerEvent: {}
+[4.117651] (-) TimerEvent: {}
+[4.218165] (-) TimerEvent: {}
+[4.318646] (-) TimerEvent: {}
+[4.419170] (-) TimerEvent: {}
+[4.524168] (-) TimerEvent: {}
+[4.624665] (-) TimerEvent: {}
+[4.725174] (-) TimerEvent: {}
+[4.825722] (-) TimerEvent: {}
+[4.926238] (-) TimerEvent: {}
+[5.031382] (-) TimerEvent: {}
+[5.131890] (-) TimerEvent: {}
+[5.232349] (-) TimerEvent: {}
+[5.335173] (-) TimerEvent: {}
+[5.435776] (-) TimerEvent: {}
+[5.536315] (-) TimerEvent: {}
+[5.639416] (-) TimerEvent: {}
+[5.742412] (-) TimerEvent: {}
+[5.761440] (serial_driver) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[5.842553] (-) TimerEvent: {}
+[5.848579] (serial_driver) StdoutLine: {'line': b'[ 33%] Built target gtest_main\n'}
+[5.877576] (serial_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/serial_driver.dir/src/serial_driver.cpp.o\x1b[0m\n'}
+[5.945177] (-) TimerEvent: {}
+[6.045653] (-) TimerEvent: {}
+[6.146147] (-) TimerEvent: {}
+[6.246624] (-) TimerEvent: {}
+[6.347092] (-) TimerEvent: {}
+[6.447551] (-) TimerEvent: {}
+[6.549164] (-) TimerEvent: {}
+[6.649615] (-) TimerEvent: {}
+[6.753171] (-) TimerEvent: {}
+[6.855168] (-) TimerEvent: {}
+[6.955651] (-) TimerEvent: {}
+[7.056147] (-) TimerEvent: {}
+[7.159171] (-) TimerEvent: {}
+[7.259652] (-) TimerEvent: {}
+[7.360145] (-) TimerEvent: {}
+[7.460660] (-) TimerEvent: {}
+[7.561120] (-) TimerEvent: {}
+[7.661581] (-) TimerEvent: {}
+[7.764512] (-) TimerEvent: {}
+[7.864991] (-) TimerEvent: {}
+[7.965475] (-) TimerEvent: {}
+[8.065946] (-) TimerEvent: {}
+[8.166431] (-) TimerEvent: {}
+[8.269171] (-) TimerEvent: {}
+[8.369655] (-) TimerEvent: {}
+[8.470157] (-) TimerEvent: {}
+[8.570681] (-) TimerEvent: {}
+[8.673170] (-) TimerEvent: {}
+[8.773700] (-) TimerEvent: {}
+[8.877423] (-) TimerEvent: {}
+[8.977895] (-) TimerEvent: {}
+[9.078389] (-) TimerEvent: {}
+[9.180413] (-) TimerEvent: {}
+[9.280948] (-) TimerEvent: {}
+[9.381455] (-) TimerEvent: {}
+[9.484375] (-) TimerEvent: {}
+[9.584964] (-) TimerEvent: {}
+[9.685568] (-) TimerEvent: {}
+[9.786050] (-) TimerEvent: {}
+[9.886586] (-) TimerEvent: {}
+[9.989561] (-) TimerEvent: {}
+[10.090089] (-) TimerEvent: {}
+[10.190603] (-) TimerEvent: {}
+[10.291095] (-) TimerEvent: {}
+[10.391600] (-) TimerEvent: {}
+[10.493178] (-) TimerEvent: {}
+[10.593644] (-) TimerEvent: {}
+[10.696183] (-) TimerEvent: {}
+[10.796691] (-) TimerEvent: {}
+[10.897177] (-) TimerEvent: {}
+[10.997648] (-) TimerEvent: {}
+[11.098123] (-) TimerEvent: {}
+[11.202180] (-) TimerEvent: {}
+[11.302681] (-) TimerEvent: {}
+[11.326419] (serial_driver) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libserial_driver.so\x1b[0m\n'}
+[11.402832] (-) TimerEvent: {}
+[11.503330] (-) TimerEvent: {}
+[11.603911] (-) TimerEvent: {}
+[11.704536] (-) TimerEvent: {}
+[11.805013] (-) TimerEvent: {}
+[11.842951] (serial_driver) StdoutLine: {'line': b'[ 46%] Built target serial_driver\n'}
+[11.899987] (serial_driver) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/serial_driver_nodes.dir/src/serial_bridge_node.cpp.o\x1b[0m\n'}
+[11.905172] (-) TimerEvent: {}
+[12.005622] (-) TimerEvent: {}
+[12.106097] (-) TimerEvent: {}
+[12.206540] (-) TimerEvent: {}
+[12.306979] (-) TimerEvent: {}
+[12.407434] (-) TimerEvent: {}
+[12.507892] (-) TimerEvent: {}
+[12.608374] (-) TimerEvent: {}
+[12.708825] (-) TimerEvent: {}
+[12.809304] (-) TimerEvent: {}
+[12.909749] (-) TimerEvent: {}
+[13.010247] (-) TimerEvent: {}
+[13.110716] (-) TimerEvent: {}
+[13.211331] (-) TimerEvent: {}
+[13.311852] (-) TimerEvent: {}
+[13.414371] (-) TimerEvent: {}
+[13.517369] (-) TimerEvent: {}
+[13.618208] (-) TimerEvent: {}
+[13.655267] (serial_driver) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable serial_bridge\x1b[0m\n'}
+[13.718375] (-) TimerEvent: {}
+[13.821386] (-) TimerEvent: {}
+[13.890380] (serial_driver) StdoutLine: {'line': b'[ 60%] Built target serial_bridge\n'}
+[13.921523] (-) TimerEvent: {}
+[14.021915] (-) TimerEvent: {}
+[14.122426] (-) TimerEvent: {}
+[14.222858] (-) TimerEvent: {}
+[14.261572] (serial_driver) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[14.323001] (-) TimerEvent: {}
+[14.369244] (serial_driver) StdoutLine: {'line': b'[ 66%] Built target gtest\n'}
+[14.412485] (serial_driver) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/test_serial_driver.dir/test/test_serial_driver.cpp.o\x1b[0m\n'}
+[14.415426] (serial_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/test_serial_port.dir/test/test_serial_port.cpp.o\x1b[0m\n'}
+[14.423151] (-) TimerEvent: {}
+[14.523580] (-) TimerEvent: {}
+[14.624017] (-) TimerEvent: {}
+[14.724473] (-) TimerEvent: {}
+[14.827323] (-) TimerEvent: {}
+[14.927761] (-) TimerEvent: {}
+[15.028178] (-) TimerEvent: {}
+[15.128604] (-) TimerEvent: {}
+[15.229049] (-) TimerEvent: {}
+[15.329489] (-) TimerEvent: {}
+[15.429970] (-) TimerEvent: {}
+[15.530503] (-) TimerEvent: {}
+[15.630944] (-) TimerEvent: {}
+[15.731403] (-) TimerEvent: {}
+[15.831862] (-) TimerEvent: {}
+[15.932303] (-) TimerEvent: {}
+[16.032774] (-) TimerEvent: {}
+[16.133174] (-) TimerEvent: {}
+[16.233659] (-) TimerEvent: {}
+[16.334114] (-) TimerEvent: {}
+[16.434581] (-) TimerEvent: {}
+[16.535013] (-) TimerEvent: {}
+[16.635515] (-) TimerEvent: {}
+[16.735974] (-) TimerEvent: {}
+[16.836427] (-) TimerEvent: {}
+[16.936830] (-) TimerEvent: {}
+[17.037291] (-) TimerEvent: {}
+[17.137767] (-) TimerEvent: {}
+[17.238249] (-) TimerEvent: {}
+[17.338711] (-) TimerEvent: {}
+[17.439184] (-) TimerEvent: {}
+[17.539642] (-) TimerEvent: {}
+[17.640122] (-) TimerEvent: {}
+[17.740562] (-) TimerEvent: {}
+[17.841027] (-) TimerEvent: {}
+[17.941507] (-) TimerEvent: {}
+[18.041967] (-) TimerEvent: {}
+[18.142449] (-) TimerEvent: {}
+[18.242930] (-) TimerEvent: {}
+[18.343415] (-) TimerEvent: {}
+[18.443868] (-) TimerEvent: {}
+[18.544342] (-) TimerEvent: {}
+[18.644775] (-) TimerEvent: {}
+[18.745183] (-) TimerEvent: {}
+[18.845715] (-) TimerEvent: {}
+[18.946179] (-) TimerEvent: {}
+[19.046670] (-) TimerEvent: {}
+[19.147170] (-) TimerEvent: {}
+[19.247666] (-) TimerEvent: {}
+[19.348152] (-) TimerEvent: {}
+[19.448592] (-) TimerEvent: {}
+[19.549033] (-) TimerEvent: {}
+[19.649515] (-) TimerEvent: {}
+[19.749937] (-) TimerEvent: {}
+[19.850382] (-) TimerEvent: {}
+[19.950820] (-) TimerEvent: {}
+[20.051271] (-) TimerEvent: {}
+[20.151754] (-) TimerEvent: {}
+[20.252237] (-) TimerEvent: {}
+[20.352723] (-) TimerEvent: {}
+[20.414282] (serial_driver) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable test_serial_driver\x1b[0m\n'}
+[20.454173] (-) TimerEvent: {}
+[20.554628] (-) TimerEvent: {}
+[20.655099] (-) TimerEvent: {}
+[20.685131] (serial_driver) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable test_serial_port\x1b[0m\n'}
+[20.755253] (-) TimerEvent: {}
+[20.855801] (-) TimerEvent: {}
+[20.950682] (serial_driver) StdoutLine: {'line': b'[ 93%] Built target test_serial_driver\n'}
+[20.955964] (-) TimerEvent: {}
+[21.056443] (-) TimerEvent: {}
+[21.157020] (-) TimerEvent: {}
+[21.220819] (serial_driver) StdoutLine: {'line': b'[ 93%] Built target test_serial_port\n'}
+[21.257185] (-) TimerEvent: {}
+[21.357601] (-) TimerEvent: {}
+[21.457990] (-) TimerEvent: {}
+[21.558392] (-) TimerEvent: {}
+[21.658768] (-) TimerEvent: {}
+[21.759149] (-) TimerEvent: {}
+[21.859529] (-) TimerEvent: {}
+[21.959904] (-) TimerEvent: {}
+[22.060300] (-) TimerEvent: {}
+[22.160662] (-) TimerEvent: {}
+[22.261050] (-) TimerEvent: {}
+[22.361447] (-) TimerEvent: {}
+[22.461818] (-) TimerEvent: {}
+[22.562192] (-) TimerEvent: {}
+[22.662558] (-) TimerEvent: {}
+[22.762932] (-) TimerEvent: {}
+[22.863327] (-) TimerEvent: {}
+[22.963697] (-) TimerEvent: {}
+[23.064062] (-) TimerEvent: {}
+[23.164447] (-) TimerEvent: {}
+[23.264814] (-) TimerEvent: {}
+[23.365192] (-) TimerEvent: {}
+[23.465555] (-) TimerEvent: {}
+[23.565926] (-) TimerEvent: {}
+[23.666320] (-) TimerEvent: {}
+[23.766728] (-) TimerEvent: {}
+[23.867168] (-) TimerEvent: {}
+[23.967576] (-) TimerEvent: {}
+[24.067963] (-) TimerEvent: {}
+[24.168399] (-) TimerEvent: {}
+[24.268810] (-) TimerEvent: {}
+[24.369219] (-) TimerEvent: {}
+[24.469658] (-) TimerEvent: {}
+[24.570059] (-) TimerEvent: {}
+[24.670485] (-) TimerEvent: {}
+[24.770901] (-) TimerEvent: {}
+[24.871335] (-) TimerEvent: {}
+[24.971727] (-) TimerEvent: {}
+[25.072140] (-) TimerEvent: {}
+[25.172515] (-) TimerEvent: {}
+[25.272901] (-) TimerEvent: {}
+[25.373330] (-) TimerEvent: {}
+[25.473716] (-) TimerEvent: {}
+[25.574119] (-) TimerEvent: {}
+[25.674521] (-) TimerEvent: {}
+[25.774982] (-) TimerEvent: {}
+[25.875407] (-) TimerEvent: {}
+[25.975798] (-) TimerEvent: {}
+[26.076161] (-) TimerEvent: {}
+[26.176546] (-) TimerEvent: {}
+[26.276919] (-) TimerEvent: {}
+[26.377321] (-) TimerEvent: {}
+[26.477706] (-) TimerEvent: {}
+[26.578130] (-) TimerEvent: {}
+[26.678499] (-) TimerEvent: {}
+[26.778876] (-) TimerEvent: {}
+[26.879285] (-) TimerEvent: {}
+[26.979670] (-) TimerEvent: {}
+[27.080101] (-) TimerEvent: {}
+[27.180478] (-) TimerEvent: {}
+[27.280870] (-) TimerEvent: {}
+[27.381276] (-) TimerEvent: {}
+[27.481670] (-) TimerEvent: {}
+[27.582098] (-) TimerEvent: {}
+[27.682489] (-) TimerEvent: {}
+[27.782881] (-) TimerEvent: {}
+[27.883298] (-) TimerEvent: {}
+[27.983700] (-) TimerEvent: {}
+[28.084123] (-) TimerEvent: {}
+[28.184500] (-) TimerEvent: {}
+[28.284883] (-) TimerEvent: {}
+[28.385304] (-) TimerEvent: {}
+[28.485695] (-) TimerEvent: {}
+[28.586108] (-) TimerEvent: {}
+[28.686491] (-) TimerEvent: {}
+[28.786880] (-) TimerEvent: {}
+[28.887372] (-) TimerEvent: {}
+[28.987746] (-) TimerEvent: {}
+[29.088168] (-) TimerEvent: {}
+[29.188563] (-) TimerEvent: {}
+[29.289008] (-) TimerEvent: {}
+[29.389528] (-) TimerEvent: {}
+[29.489918] (-) TimerEvent: {}
+[29.590419] (-) TimerEvent: {}
+[29.690784] (-) TimerEvent: {}
+[29.701992] (serial_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libserial_driver_nodes.so\x1b[0m\n'}
+[29.790982] (-) TimerEvent: {}
+[29.891466] (-) TimerEvent: {}
+[29.992021] (-) TimerEvent: {}
+[30.092580] (-) TimerEvent: {}
+[30.193127] (-) TimerEvent: {}
+[30.293609] (-) TimerEvent: {}
+[30.394164] (-) TimerEvent: {}
+[30.494669] (-) TimerEvent: {}
+[30.595187] (-) TimerEvent: {}
+[30.695594] (-) TimerEvent: {}
+[30.774945] (serial_driver) StdoutLine: {'line': b'[100%] Built target serial_driver_nodes\n'}
+[30.793265] (serial_driver) CommandEnded: {'returncode': 0}
+[30.794330] (serial_driver) JobProgress: {'identifier': 'serial_driver', 'progress': 'install'}
+[30.795667] (-) TimerEvent: {}
+[30.813881] (serial_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cafsanchezdi/ros2_ws/build/serial_driver'], 'cwd': '/home/cafsanchezdi/ros2_ws/build/serial_driver', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cafsanchezdi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/cafsanchezdi/ros2_ws/install/sdv_serial/share', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cafsanchezdi/ros2_ws/install/serial_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cafsanchezdi', 'OLDPWD': '/home/cafsanchezdi/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2960', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6df09a76acf35a9c450b440367c5cab8', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/cafsanchezdi/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cafsanchezdi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/cafsanchezdi/ros2_ws/install/sdv_serial/lib/x86_64-linux-gnu/pkgconfig:/home/cafsanchezdi/ros2_ws/install/sdv_serial/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cafsanchezdi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sdvun2-ros2:@/tmp/.ICE-unix/2960,unix/sdvun2-ros2:/tmp/.ICE-unix/2960', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/91b57584_8548_4ad1_be29_c5a920d25e9d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WIMW22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cafsanchezdi/ros2_ws/install/serial_driver:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cafsanchezdi/ros2_ws/build/serial_driver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6df09a76acf35a9c450b440367c5cab8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/cafsanchezdi/ros2_ws/install/serial_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[30.826273] (serial_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.827087] (serial_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[30.827762] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/lib/serial_driver/serial_bridge\n'}
+[30.842910] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/include/serial_driver/serial_bridge_node.hpp\n'}
+[30.856680] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/include/serial_driver/serial_driver.hpp\n'}
+[30.870703] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/include/serial_driver/serial_port.hpp\n'}
+[30.884519] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/include/serial_driver/visibility_control.hpp\n'}
+[30.895835] (-) TimerEvent: {}
+[30.902700] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/environment/library_path.sh\n'}
+[30.919948] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/environment/library_path.dsv\n'}
+[30.936399] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/lib/libserial_driver.so\n'}
+[30.951009] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/lib/libserial_driver_nodes.so\n'}
+[30.966932] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/launch/serial_driver_bridge_node.launch.py\n'}
+[30.982783] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/params/example.params.yaml\n'}
+[30.995990] (-) TimerEvent: {}
+[31.000693] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/ament_index/resource_index/package_run_dependencies/serial_driver\n'}
+[31.019464] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/ament_index/resource_index/parent_prefix_path/serial_driver\n'}
+[31.037003] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/environment/ament_prefix_path.sh\n'}
+[31.052875] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/environment/ament_prefix_path.dsv\n'}
+[31.069058] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/environment/path.sh\n'}
+[31.084903] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/environment/path.dsv\n'}
+[31.096152] (-) TimerEvent: {}
+[31.102703] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/local_setup.bash\n'}
+[31.121735] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/local_setup.sh\n'}
+[31.139720] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/local_setup.zsh\n'}
+[31.157476] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/local_setup.dsv\n'}
+[31.173936] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/package.dsv\n'}
+[31.191137] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/ament_index/resource_index/packages/serial_driver\n'}
+[31.196284] (-) TimerEvent: {}
+[31.213136] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/ament_index/resource_index/rclcpp_components/serial_driver\n'}
+[31.230157] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[31.246858] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[31.263499] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[31.282124] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/cmake/serial_driver-extras.cmake\n'}
+[31.296446] (-) TimerEvent: {}
+[31.300004] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/cmake/serial_driverConfig.cmake\n'}
+[31.321562] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/cmake/serial_driverConfig-version.cmake\n'}
+[31.336955] (serial_driver) StdoutLine: {'line': b'-- Symlinking: /home/cafsanchezdi/ros2_ws/install/serial_driver/share/serial_driver/package.xml\n'}
+[31.360299] (serial_driver) CommandEnded: {'returncode': 0}
+[31.394910] (serial_driver) JobEnded: {'identifier': 'serial_driver', 'rc': 0}
+[31.396688] (-) TimerEvent: {}
+[31.396891] (-) EventReactorShutdown: {}

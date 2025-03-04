@@ -1,0 +1,2 @@
+Invoking command in '/home/cafsanchezdi/ros2_ws/build/sdv_serial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cafsanchezdi/ros2_ws/build/sdv_serial -- -j4 -l4
+Invoked command in '/home/cafsanchezdi/ros2_ws/build/sdv_serial' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cafsanchezdi/ros2_ws/build/sdv_serial -- -j4 -l4

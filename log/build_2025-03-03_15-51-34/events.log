@@ -1,0 +1,469 @@
+[0.000000] (-) TimerEvent: {}
+[0.000276] (-) JobUnselected: {'identifier': 'robot_pose_publisher'}
+[0.000362] (-) JobUnselected: {'identifier': 'sdv_joystick'}
+[0.000415] (-) JobUnselected: {'identifier': 'sdv_nav'}
+[0.000457] (-) JobUnselected: {'identifier': 'sdv_process'}
+[0.000497] (-) JobUnselected: {'identifier': 'sdv_scripts'}
+[0.000536] (-) JobUnselected: {'identifier': 'serial_driver'}
+[0.000573] (-) JobUnselected: {'identifier': 'sick_scan_xd'}
+[0.000614] (sdv_serial) JobQueued: {'identifier': 'sdv_serial', 'dependencies': OrderedDict({'serial_driver': '/home/cafsanchezdi/ros2_ws/install/serial_driver'})}
+[0.001221] (sdv_serial) JobStarted: {'identifier': 'sdv_serial'}
+[0.027556] (sdv_serial) JobProgress: {'identifier': 'sdv_serial', 'progress': 'cmake'}
+[0.028904] (sdv_serial) JobProgress: {'identifier': 'sdv_serial', 'progress': 'build'}
+[0.029929] (sdv_serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cafsanchezdi/ros2_ws/build/sdv_serial', '--', '-j4', '-l4'], 'cwd': '/home/cafsanchezdi/ros2_ws/build/sdv_serial', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cafsanchezdi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'ROS_PACKAGE_PATH': '/home/cafsanchezdi/ros2_ws/install/sdv_serial/share', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cafsanchezdi/ros2_ws/install/serial_driver/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cafsanchezdi', 'OLDPWD': '/home/cafsanchezdi/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2960', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6df09a76acf35a9c450b440367c5cab8', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/cafsanchezdi/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cafsanchezdi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/cafsanchezdi/ros2_ws/install/sdv_serial/lib/x86_64-linux-gnu/pkgconfig:/home/cafsanchezdi/ros2_ws/install/sdv_serial/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cafsanchezdi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sdvun2-ros2:@/tmp/.ICE-unix/2960,unix/sdvun2-ros2:/tmp/.ICE-unix/2960', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/91b57584_8548_4ad1_be29_c5a920d25e9d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WIMW22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cafsanchezdi/ros2_ws/install/serial_driver:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cafsanchezdi/ros2_ws/build/sdv_serial', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6df09a76acf35a9c450b440367c5cab8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/cafsanchezdi/ros2_ws/install/serial_driver:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.046258] (sdv_serial) StdoutLine: {'line': b"Change Dir: '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.046591] (sdv_serial) StdoutLine: {'line': b'\n'}
+[0.046742] (sdv_serial) StdoutLine: {'line': b'Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j4 -l4\n'}
+[0.065656] (sdv_serial) StdoutLine: {'line': b'/usr/bin/cmake -S/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial -B/home/cafsanchezdi/ros2_ws/build/sdv_serial --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.086650] (sdv_serial) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles /home/cafsanchezdi/ros2_ws/build/sdv_serial//CMakeFiles/progress.marks\n'}
+[0.099305] (-) TimerEvent: {}
+[0.104022] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[0.107932] (sdv_serial) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.108392] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_generator_type_description.dir/build.make CMakeFiles/sdv_serial__rosidl_generator_type_description.dir/depend\n'}
+[0.108819] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_sdv_serial.dir/build.make CMakeFiles/ament_cmake_python_copy_sdv_serial.dir/depend\n'}
+[0.111308] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.111764] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.112063] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/ament_cmake_python_copy_sdv_serial.dir/DependInfo.cmake "--color="\n'}
+[0.112436] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial__rosidl_generator_type_description.dir/DependInfo.cmake "--color="\n'}
+[0.127159] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.127558] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.127788] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_generator_type_description.dir/build.make CMakeFiles/sdv_serial__rosidl_generator_type_description.dir/build\n'}
+[0.128050] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_sdv_serial.dir/build.make CMakeFiles/ament_cmake_python_copy_sdv_serial.dir/build\n'}
+[0.129649] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.130035] (sdv_serial) StdoutLine: {'line': b'/usr/bin/cmake -E copy_directory /home/cafsanchezdi/ros2_ws/build/sdv_serial/rosidl_generator_py/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/ament_cmake_python/sdv_serial/sdv_serial\n'}
+[0.130230] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.130377] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial__rosidl_generator_type_description.dir/build'.\n"}
+[0.130516] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.142858] (sdv_serial) StdoutLine: {'line': b'[  1%] Built target sdv_serial__rosidl_generator_type_description\n'}
+[0.144644] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__cpp.dir/build.make CMakeFiles/sdv_serial__cpp.dir/depend\n'}
+[0.147141] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_generator_c.dir/build.make CMakeFiles/sdv_serial__rosidl_generator_c.dir/depend\n'}
+[0.148116] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.148563] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial__cpp.dir/DependInfo.cmake "--color="\n'}
+[0.148845] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.153875] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.154323] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial__rosidl_generator_c.dir/DependInfo.cmake "--color="\n'}
+[0.165630] (sdv_serial) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_sdv_serial\n'}
+[0.166238] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.166605] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__cpp.dir/build.make CMakeFiles/sdv_serial__cpp.dir/build\n'}
+[0.168241] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_sdv_serial_egg.dir/build.make CMakeFiles/ament_cmake_python_build_sdv_serial_egg.dir/depend\n'}
+[0.169909] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.170310] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial__cpp.dir/build'.\n"}
+[0.170700] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.170977] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.171293] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/ament_cmake_python_build_sdv_serial_egg.dir/DependInfo.cmake "--color="\n'}
+[0.179104] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.179616] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_generator_c.dir/build.make CMakeFiles/sdv_serial__rosidl_generator_c.dir/build\n'}
+[0.184699] (sdv_serial) StdoutLine: {'line': b'[  2%] Built target sdv_serial__cpp\n'}
+[0.188439] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.188791] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial__rosidl_generator_c.dir/build'.\n"}
+[0.188964] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.191655] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.192159] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_sdv_serial_egg.dir/build.make CMakeFiles/ament_cmake_python_build_sdv_serial_egg.dir/build\n'}
+[0.193505] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.193861] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial/ament_cmake_python/sdv_serial && /usr/bin/python3 setup.py egg_info\n'}
+[0.199432] (-) TimerEvent: {}
+[0.205979] (sdv_serial) StdoutLine: {'line': b'[ 25%] Built target sdv_serial__rosidl_generator_c\n'}
+[0.211233] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_typesupport_cpp.dir/build.make CMakeFiles/sdv_serial__rosidl_typesupport_cpp.dir/depend\n'}
+[0.211920] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/sdv_serial__rosidl_typesupport_fastrtps_c.dir/depend\n'}
+[0.215864] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/sdv_serial__rosidl_typesupport_fastrtps_cpp.dir/depend\n'}
+[0.217844] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.218551] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial__rosidl_typesupport_cpp.dir/DependInfo.cmake "--color="\n'}
+[0.220449] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.220838] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color="\n'}
+[0.224659] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.225457] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake "--color="\n'}
+[0.242722] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.243710] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_typesupport_cpp.dir/build.make CMakeFiles/sdv_serial__rosidl_typesupport_cpp.dir/build\n'}
+[0.251077] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.251511] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/sdv_serial__rosidl_typesupport_fastrtps_c.dir/build\n'}
+[0.251890] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.252212] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial__rosidl_typesupport_cpp.dir/build'.\n"}
+[0.252447] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.254313] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.255209] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/sdv_serial__rosidl_typesupport_fastrtps_cpp.dir/build\n'}
+[0.260253] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.262087] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial__rosidl_typesupport_fastrtps_c.dir/build'.\n"}
+[0.262489] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.269439] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.269824] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial__rosidl_typesupport_fastrtps_cpp.dir/build'.\n"}
+[0.270137] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.276087] (sdv_serial) StdoutLine: {'line': b'[ 35%] Built target sdv_serial__rosidl_typesupport_cpp\n'}
+[0.277008] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/sdv_serial__rosidl_typesupport_introspection_c.dir/depend\n'}
+[0.282815] (sdv_serial) StdoutLine: {'line': b'[ 44%] Built target sdv_serial__rosidl_typesupport_fastrtps_c\n'}
+[0.284953] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.285275] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color="\n'}
+[0.285548] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_typesupport_c.dir/build.make CMakeFiles/sdv_serial__rosidl_typesupport_c.dir/depend\n'}
+[0.291660] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.292069] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial__rosidl_typesupport_c.dir/DependInfo.cmake "--color="\n'}
+[0.292351] (sdv_serial) StdoutLine: {'line': b'[ 53%] Built target sdv_serial__rosidl_typesupport_fastrtps_cpp\n'}
+[0.294768] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/sdv_serial__rosidl_typesupport_introspection_cpp.dir/depend\n'}
+[0.301098] (-) TimerEvent: {}
+[0.304810] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.305246] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake "--color="\n'}
+[0.316637] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.317207] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_typesupport_c.dir/build.make CMakeFiles/sdv_serial__rosidl_typesupport_c.dir/build\n'}
+[0.323328] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.323845] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/sdv_serial__rosidl_typesupport_introspection_c.dir/build\n'}
+[0.325115] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.325483] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial__rosidl_typesupport_c.dir/build'.\n"}
+[0.325744] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.330344] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.330868] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial__rosidl_typesupport_introspection_c.dir/build'.\n"}
+[0.331189] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.331468] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.331741] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/sdv_serial__rosidl_typesupport_introspection_cpp.dir/build\n'}
+[0.343079] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.343470] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial__rosidl_typesupport_introspection_cpp.dir/build'.\n"}
+[0.343723] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.346748] (sdv_serial) StdoutLine: {'line': b'[ 62%] Built target sdv_serial__rosidl_typesupport_c\n'}
+[0.353709] (sdv_serial) StdoutLine: {'line': b'[ 72%] Built target sdv_serial__rosidl_typesupport_introspection_c\n'}
+[0.360058] (sdv_serial) StdoutLine: {'line': b'[ 81%] Built target sdv_serial__rosidl_typesupport_introspection_cpp\n'}
+[0.361728] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial.dir/build.make CMakeFiles/sdv_serial.dir/depend\n'}
+[0.363709] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.364097] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial.dir/DependInfo.cmake "--color="\n'}
+[0.379231] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.379693] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial.dir/build.make CMakeFiles/sdv_serial.dir/build\n'}
+[0.381384] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.381758] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial.dir/build'.\n"}
+[0.382019] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.395255] (sdv_serial) StdoutLine: {'line': b'[ 81%] Built target sdv_serial\n'}
+[0.396946] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f /home/cafsanchezdi/ros2_ws/build/sdv_serial/sdv_serial__py/CMakeFiles/sdv_serial__py.dir/build.make /home/cafsanchezdi/ros2_ws/build/sdv_serial/sdv_serial__py/CMakeFiles/sdv_serial__py.dir/depend\n'}
+[0.397427] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial_node2.dir/build.make CMakeFiles/sdv_serial_node2.dir/depend\n'}
+[0.399516] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.399925] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/sdv_serial__py /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/sdv_serial__py /home/cafsanchezdi/ros2_ws/build/sdv_serial/sdv_serial__py/CMakeFiles/sdv_serial__py.dir/DependInfo.cmake "--color="\n'}
+[0.401213] (-) TimerEvent: {}
+[0.415248] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.415777] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial_node2.dir/DependInfo.cmake "--color="\n'}
+[0.425695] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.426225] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f /home/cafsanchezdi/ros2_ws/build/sdv_serial/sdv_serial__py/CMakeFiles/sdv_serial__py.dir/build.make /home/cafsanchezdi/ros2_ws/build/sdv_serial/sdv_serial__py/CMakeFiles/sdv_serial__py.dir/build\n'}
+[0.429396] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.429773] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for '/home/cafsanchezdi/ros2_ws/build/sdv_serial/sdv_serial__py/CMakeFiles/sdv_serial__py.dir/build'.\n"}
+[0.430034] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.434639] (sdv_serial) StdoutLine: {'line': b'Dependencies file "CMakeFiles/sdv_serial_node2.dir/src/sdv_serial_node2.cpp.o.d" is newer than depends file "/home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial_node2.dir/compiler_depend.internal".\n'}
+[0.437086] (sdv_serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sdv_serial_node2\x1b[0m\n'}
+[0.450885] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.452249] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial_node2.dir/build.make CMakeFiles/sdv_serial_node2.dir/build\n'}
+[0.452724] (sdv_serial) StdoutLine: {'line': b'[ 82%] Built target sdv_serial__py\n'}
+[0.454932] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_generator_py.dir/build.make CMakeFiles/sdv_serial__rosidl_generator_py.dir/depend\n'}
+[0.462036] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.462426] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial__rosidl_generator_py.dir/DependInfo.cmake "--color="\n'}
+[0.472616] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.483196] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.483607] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial__rosidl_generator_py.dir/build.make CMakeFiles/sdv_serial__rosidl_generator_py.dir/build\n'}
+[0.489438] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.489823] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial__rosidl_generator_py.dir/build'.\n"}
+[0.490139] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.493814] (sdv_serial) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/sdv_serial_node2.dir/src/sdv_serial_node2.cpp.o\x1b[0m\n'}
+[0.496263] (sdv_serial) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -DROS_PACKAGE_NAME=\\"sdv_serial\\" -I/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/include -I/home/cafsanchezdi/ros2_ws/build/sdv_serial/rosidl_generator_cpp -I/opt/ros/jazzy/include -I/opt/ros/jazzy/include/rclcpp_components -I/opt/ros/jazzy/include/rclcpp_lifecycle -I/home/cafsanchezdi/ros2_ws/build/sdv_serial/rosidl_generator_c -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/std_msgs -isystem /opt/ros/jazzy/include/sensor_msgs -isystem /opt/ros/jazzy/include/geometry_msgs -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/udp_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/class_loader -isystem /opt/ros/jazzy/include/composition_interfaces -isystem /opt/ros/jazzy/include/lifecycle_msgs -isystem /opt/ros/jazzy/include/rcl_lifecycle -std=gnu++17 -MD -MT CMakeFiles/sdv_serial_node2.dir/src/sdv_serial_node2.cpp.o -MF CMakeFiles/sdv_serial_node2.dir/src/sdv_serial_node2.cpp.o.d -o CMakeFiles/sdv_serial_node2.dir/src/sdv_serial_node2.cpp.o -c /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp\n'}
+[0.501331] (-) TimerEvent: {}
+[0.509683] (sdv_serial) StdoutLine: {'line': b'[ 91%] Built target sdv_serial__rosidl_generator_py\n'}
+[0.510464] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/sdv_serial_s__rosidl_typesupport_fastrtps_c.dir/depend\n'}
+[0.513673] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/sdv_serial_s__rosidl_typesupport_introspection_c.dir/depend\n'}
+[0.517754] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.518175] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial_s__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color="\n'}
+[0.519262] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.519550] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial_s__rosidl_typesupport_introspection_c.dir/DependInfo.cmake "--color="\n'}
+[0.540532] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.540951] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.542066] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/sdv_serial_s__rosidl_typesupport_fastrtps_c.dir/build\n'}
+[0.542439] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/sdv_serial_s__rosidl_typesupport_introspection_c.dir/build\n'}
+[0.546929] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.547365] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial_s__rosidl_typesupport_introspection_c.dir/build'.\n"}
+[0.547646] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.547912] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.548224] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial_s__rosidl_typesupport_fastrtps_c.dir/build'.\n"}
+[0.548485] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.569143] (sdv_serial) StdoutLine: {'line': b'[ 95%] Built target sdv_serial_s__rosidl_typesupport_fastrtps_c\n'}
+[0.569525] (sdv_serial) StdoutLine: {'line': b'[ 95%] Built target sdv_serial_s__rosidl_typesupport_introspection_c\n'}
+[0.569907] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial_s__rosidl_typesupport_c.dir/build.make CMakeFiles/sdv_serial_s__rosidl_typesupport_c.dir/depend\n'}
+[0.574336] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.574820] (sdv_serial) StdoutLine: {'line': b'cd /home/cafsanchezdi/ros2_ws/build/sdv_serial && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial /home/cafsanchezdi/ros2_ws/build/sdv_serial/CMakeFiles/sdv_serial_s__rosidl_typesupport_c.dir/DependInfo.cmake "--color="\n'}
+[0.597915] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.598402] (sdv_serial) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/sdv_serial_s__rosidl_typesupport_c.dir/build.make CMakeFiles/sdv_serial_s__rosidl_typesupport_c.dir/build\n'}
+[0.601440] (-) TimerEvent: {}
+[0.605190] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.605575] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Nothing to be done for 'CMakeFiles/sdv_serial_s__rosidl_typesupport_c.dir/build'.\n"}
+[0.605817] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[0.627404] (sdv_serial) StdoutLine: {'line': b'[ 97%] Built target sdv_serial_s__rosidl_typesupport_c\n'}
+[0.701562] (-) TimerEvent: {}
+[0.774631] (sdv_serial) StdoutLine: {'line': b'running egg_info\n'}
+[0.801682] (-) TimerEvent: {}
+[0.822696] (sdv_serial) StdoutLine: {'line': b'writing sdv_serial.egg-info/PKG-INFO\n'}
+[0.823165] (sdv_serial) StdoutLine: {'line': b'writing dependency_links to sdv_serial.egg-info/dependency_links.txt\n'}
+[0.823546] (sdv_serial) StdoutLine: {'line': b'writing top-level names to sdv_serial.egg-info/top_level.txt\n'}
+[0.901800] (-) TimerEvent: {}
+[0.954496] (sdv_serial) StdoutLine: {'line': b"reading manifest file 'sdv_serial.egg-info/SOURCES.txt'\n"}
+[0.955571] (sdv_serial) StdoutLine: {'line': b"writing manifest file 'sdv_serial.egg-info/SOURCES.txt'\n"}
+[0.992904] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[1.001942] (-) TimerEvent: {}
+[1.010236] (sdv_serial) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_sdv_serial_egg\n'}
+[1.102088] (-) TimerEvent: {}
+[1.202498] (-) TimerEvent: {}
+[1.302912] (-) TimerEvent: {}
+[1.403356] (-) TimerEvent: {}
+[1.503764] (-) TimerEvent: {}
+[1.604183] (-) TimerEvent: {}
+[1.704606] (-) TimerEvent: {}
+[1.805059] (-) TimerEvent: {}
+[1.905488] (-) TimerEvent: {}
+[2.005925] (-) TimerEvent: {}
+[2.106379] (-) TimerEvent: {}
+[2.206810] (-) TimerEvent: {}
+[2.307293] (-) TimerEvent: {}
+[2.407726] (-) TimerEvent: {}
+[2.508173] (-) TimerEvent: {}
+[2.608605] (-) TimerEvent: {}
+[2.709053] (-) TimerEvent: {}
+[2.809488] (-) TimerEvent: {}
+[2.909916] (-) TimerEvent: {}
+[3.010364] (-) TimerEvent: {}
+[3.110803] (-) TimerEvent: {}
+[3.211275] (-) TimerEvent: {}
+[3.311707] (-) TimerEvent: {}
+[3.412131] (-) TimerEvent: {}
+[3.512531] (-) TimerEvent: {}
+[3.612947] (-) TimerEvent: {}
+[3.713401] (-) TimerEvent: {}
+[3.813820] (-) TimerEvent: {}
+[3.914275] (-) TimerEvent: {}
+[4.014694] (-) TimerEvent: {}
+[4.115079] (-) TimerEvent: {}
+[4.215507] (-) TimerEvent: {}
+[4.315914] (-) TimerEvent: {}
+[4.416286] (-) TimerEvent: {}
+[4.516642] (-) TimerEvent: {}
+[4.617011] (-) TimerEvent: {}
+[4.717365] (-) TimerEvent: {}
+[4.817754] (-) TimerEvent: {}
+[4.918181] (-) TimerEvent: {}
+[5.018580] (-) TimerEvent: {}
+[5.118952] (-) TimerEvent: {}
+[5.219345] (-) TimerEvent: {}
+[5.319713] (-) TimerEvent: {}
+[5.420120] (-) TimerEvent: {}
+[5.520520] (-) TimerEvent: {}
+[5.620922] (-) TimerEvent: {}
+[5.721340] (-) TimerEvent: {}
+[5.821753] (-) TimerEvent: {}
+[5.922175] (-) TimerEvent: {}
+[6.022562] (-) TimerEvent: {}
+[6.122960] (-) TimerEvent: {}
+[6.223370] (-) TimerEvent: {}
+[6.232461] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSDVSerialNode::\x1b[01;32m\x1b[KSDVSerialNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.233035] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:42:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kdrivers::serial_driver::SerialDriver::SerialDriver()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.233242] (sdv_serial) StderrLine: {'line': b'   42 |   SDVSerialNode() : Node("sdv_serial_node"), board_is_ok_(false), baudrate_(115200\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[6.233406] (sdv_serial) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.233560] (sdv_serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:23\x1b[m\x1b[K:\n'}
+[6.233707] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:32:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdrivers::serial_driver::SerialDriver::\x1b[01;32m\x1b[KSerialDriver\x1b[m\x1b[K(const drivers::common::IoContext&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.233856] (sdv_serial) StderrLine: {'line': b'   32 |   explicit \x1b[01;36m\x1b[KSerialDriver\x1b[m\x1b[K(const IoContext & ctx);\n'}
+[6.234009] (sdv_serial) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.234161] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:32:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[6.234302] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:29:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdrivers::serial_driver::SerialDriver::\x1b[01;32m\x1b[KSerialDriver\x1b[m\x1b[K(const drivers::serial_driver::SerialDriver&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.234452] (sdv_serial) StderrLine: {'line': b'   29 | class \x1b[01;36m\x1b[KSerialDriver\x1b[m\x1b[K\n'}
+[6.234588] (sdv_serial) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.234722] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:29:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[6.234857] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:29:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdrivers::serial_driver::SerialDriver::\x1b[01;32m\x1b[KSerialDriver\x1b[m\x1b[K(drivers::serial_driver::SerialDriver&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.235015] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/serial_driver/serial_driver.hpp:29:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[6.251890] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:77:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KisOpen\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.252188] (sdv_serial) StderrLine: {'line': b'   77 |       if(ser_.\x1b[01;31m\x1b[KisOpen\x1b[m\x1b[K())\n'}
+[6.252338] (sdv_serial) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.274775] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint SDVSerialNode::\x1b[01;32m\x1b[Kopen_serial_port\x1b[m\x1b[K(const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.275114] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:174:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KsetPort\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.275272] (sdv_serial) StderrLine: {'line': b'  174 |       ser_.\x1b[01;31m\x1b[KsetPort\x1b[m\x1b[K(portx);\n'}
+[6.275411] (sdv_serial) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.275547] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:175:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KsetBaudrate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.275685] (sdv_serial) StderrLine: {'line': b'  175 |       ser_.\x1b[01;31m\x1b[KsetBaudrate\x1b[m\x1b[K(baudrate_);\n'}
+[6.275819] (sdv_serial) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.275952] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:176:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserial\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.276122] (sdv_serial) StderrLine: {'line': b'  176 |       \x1b[01;31m\x1b[Kserial\x1b[m\x1b[K::Timeout to = serial::Timeout::simpleTimeout(10);\n'}
+[6.276259] (sdv_serial) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.276392] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:177:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KsetTimeout\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.276540] (sdv_serial) StderrLine: {'line': b'  177 |       ser_.\x1b[01;31m\x1b[KsetTimeout\x1b[m\x1b[K(to);\n'}
+[6.276671] (sdv_serial) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.283479] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:177:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kto\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.283812] (sdv_serial) StderrLine: {'line': b'  177 |       ser_.setTimeout(\x1b[01;31m\x1b[Kto\x1b[m\x1b[K);\n'}
+[6.283975] (sdv_serial) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.284175] (sdv_serial) StderrLine: {'line': b'      |                       \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[6.284313] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:178:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kopen\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.284465] (sdv_serial) StderrLine: {'line': b'  178 |       ser_.\x1b[01;31m\x1b[Kopen\x1b[m\x1b[K();\n'}
+[6.284598] (sdv_serial) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.286756] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:179:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserial\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.287056] (sdv_serial) StderrLine: {'line': b'  179 |     } catch (\x1b[01;31m\x1b[Kserial\x1b[m\x1b[K::IOException &e) {\n'}
+[6.287211] (sdv_serial) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.287350] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:179:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.287487] (sdv_serial) StderrLine: {'line': b'  179 |     } catch (serial::IOException \x1b[01;31m\x1b[K&\x1b[m\x1b[Ke) {\n'}
+[6.287622] (sdv_serial) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.287755] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:179:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.287892] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:179:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.288056] (sdv_serial) StderrLine: {'line': b'  179 |     } catch \x1b[01;36m\x1b[K(\x1b[m\x1b[Kserial::IOException &e) {\n'}
+[6.288198] (sdv_serial) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.288330] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:179:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.288464] (sdv_serial) StderrLine: {'line': b'  179 |     } catch (serial::IOException \x1b[01;31m\x1b[K&\x1b[m\x1b[Ke) {\n'}
+[6.288595] (sdv_serial) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.294639] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:179:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ke\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.294925] (sdv_serial) StderrLine: {'line': b'  179 |     } catch (serial::IOException &\x1b[01;31m\x1b[Ke\x1b[m\x1b[K) {\n'}
+[6.295102] (sdv_serial) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.295773] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SDVSerialNode::\x1b[01;32m\x1b[Kstart_serial_communication\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.295963] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:190:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.296146] (sdv_serial) StderrLine: {'line': b'  190 |     ser_.\x1b[01;31m\x1b[Kwrite\x1b[m\x1b[K("if 0\\r");\n'}
+[6.296290] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.296427] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:191:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kflush\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.296564] (sdv_serial) StderrLine: {'line': b'  191 |     ser_.\x1b[01;31m\x1b[Kflush\x1b[m\x1b[K();\n'}
+[6.296699] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.296832] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:192:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.297110] (sdv_serial) StderrLine: {'line': b'  192 |     ser_.\x1b[01;31m\x1b[Kwrite\x1b[m\x1b[K("sa 0\\r");\n'}
+[6.297263] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.297396] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:193:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kflush\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.297532] (sdv_serial) StderrLine: {'line': b'  193 |     ser_.\x1b[01;31m\x1b[Kflush\x1b[m\x1b[K();\n'}
+[6.297755] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.298067] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:194:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kread\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.298340] (sdv_serial) StderrLine: {'line': b'  194 |     ser_.\x1b[01;31m\x1b[Kread\x1b[m\x1b[K(ser_.available());\n'}
+[6.298546] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.298733] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:194:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kavailable\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.299054] (sdv_serial) StderrLine: {'line': b'  194 |     ser_.read(ser_.\x1b[01;31m\x1b[Kavailable\x1b[m\x1b[K());\n'}
+[6.299210] (sdv_serial) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.299343] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:195:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kflush\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.299486] (sdv_serial) StderrLine: {'line': b'  195 |     ser_.\x1b[01;31m\x1b[Kflush\x1b[m\x1b[K();\n'}
+[6.299619] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.299748] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:199:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.299883] (sdv_serial) StderrLine: {'line': b'  199 |     ser_.\x1b[01;31m\x1b[Kwrite\x1b[m\x1b[K("rt\\r");\n'}
+[6.300038] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.300179] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:200:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kflush\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.300312] (sdv_serial) StderrLine: {'line': b'  200 |     ser_.\x1b[01;31m\x1b[Kflush\x1b[m\x1b[K();\n'}
+[6.300443] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.300574] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:205:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kavailable\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.300707] (sdv_serial) StderrLine: {'line': b'  205 |       if (ser_.\x1b[01;31m\x1b[Kavailable\x1b[m\x1b[K()) {\n'}
+[6.300838] (sdv_serial) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.300968] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:206:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kread\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.301126] (sdv_serial) StderrLine: {'line': b'  206 |         std::string line_start = ser_.\x1b[01;31m\x1b[Kread\x1b[m\x1b[K(1);\n'}
+[6.301270] (sdv_serial) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.301403] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:208:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kreadline\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.301535] (sdv_serial) StderrLine: {'line': b'  208 |           std::string data_stamp = ser_.\x1b[01;31m\x1b[Kreadline\x1b[m\x1b[K();\n'}
+[6.301665] (sdv_serial) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.301795] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:209:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kflush\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.301934] (sdv_serial) StderrLine: {'line': b'  209 |           ser_.\x1b[01;31m\x1b[Kflush\x1b[m\x1b[K();\n'}
+[6.302100] (sdv_serial) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.303244] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:234:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.303432] (sdv_serial) StderrLine: {'line': b'  234 |     ser_.\x1b[01;31m\x1b[Kwrite\x1b[m\x1b[K("cf 0\\r");\n'}
+[6.303582] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.303829] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:235:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kflush\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.303998] (sdv_serial) StderrLine: {'line': b'  235 |     ser_.\x1b[01;31m\x1b[Kflush\x1b[m\x1b[K();\n'}
+[6.304177] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.304483] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:237:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.304630] (sdv_serial) StderrLine: {'line': b'  237 |     ser_.\x1b[01;31m\x1b[Kwrite\x1b[m\x1b[K("mt 1\\r");\n'}
+[6.304769] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.304907] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:238:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kflush\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.305066] (sdv_serial) StderrLine: {'line': b'  238 |     ser_.\x1b[01;31m\x1b[Kflush\x1b[m\x1b[K();\n'}
+[6.305210] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.305349] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:240:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.305664] (sdv_serial) StderrLine: {'line': b'  240 |     ser_.\x1b[01;31m\x1b[Kwrite\x1b[m\x1b[K("dt 1\\r");\n'}
+[6.305795] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.305926] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:241:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kflush\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.306095] (sdv_serial) StderrLine: {'line': b'  241 |     ser_.\x1b[01;31m\x1b[Kflush\x1b[m\x1b[K();\n'}
+[6.306234] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.306364] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:243:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.306505] (sdv_serial) StderrLine: {'line': b'  243 |     ser_.\x1b[01;31m\x1b[Kwrite\x1b[m\x1b[K("sa 1\\r");\n'}
+[6.306635] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.306783] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:244:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kflush\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.306925] (sdv_serial) StderrLine: {'line': b'  244 |     ser_.\x1b[01;31m\x1b[Kflush\x1b[m\x1b[K();\n'}
+[6.307091] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.307235] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.307375] (sdv_serial) StderrLine: {'line': b'  246 |     ser_.\x1b[01;31m\x1b[Kwrite\x1b[m\x1b[K("if 1\\r");\n'}
+[6.307538] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.307677] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:247:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kflush\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.308018] (sdv_serial) StderrLine: {'line': b'  247 |     ser_.\x1b[01;31m\x1b[Kflush\x1b[m\x1b[K();\n'}
+[6.308169] (sdv_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.308300] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SDVSerialNode::\x1b[01;32m\x1b[Kprocess_serial\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.308433] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:261:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kavailable\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.308566] (sdv_serial) StderrLine: {'line': b'  261 |     if (ser_.\x1b[01;31m\x1b[Kavailable\x1b[m\x1b[K()) {\n'}
+[6.308696] (sdv_serial) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.308826] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:266:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kavailable\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.308959] (sdv_serial) StderrLine: {'line': b'  266 |       while (last_char != "\\n" && ser_.\x1b[01;31m\x1b[Kavailable\x1b[m\x1b[K()) {\n'}
+[6.309121] (sdv_serial) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.309256] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:267:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kread\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.309389] (sdv_serial) StderrLine: {'line': b'  267 |         last_char = ser_.\x1b[01;31m\x1b[Kread\x1b[m\x1b[K(1);\n'}
+[6.309520] (sdv_serial) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.310161] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:298:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kwrite\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.310460] (sdv_serial) StderrLine: {'line': b'  298 |         ser_.\x1b[01;31m\x1b[Kwrite\x1b[m\x1b[K(msg);\n'}
+[6.310603] (sdv_serial) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.310738] (sdv_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_serial/src/sdv_serial_node2.cpp:299:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass drivers::serial_driver::SerialDriver\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kflush\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.310875] (sdv_serial) StderrLine: {'line': b'  299 |         ser_.\x1b[01;31m\x1b[Kflush\x1b[m\x1b[K();\n'}
+[6.311031] (sdv_serial) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.323513] (-) TimerEvent: {}
+[6.423884] (-) TimerEvent: {}
+[6.524274] (-) TimerEvent: {}
+[6.624635] (-) TimerEvent: {}
+[6.725015] (-) TimerEvent: {}
+[6.825359] (-) TimerEvent: {}
+[6.925718] (-) TimerEvent: {}
+[7.026096] (-) TimerEvent: {}
+[7.126474] (-) TimerEvent: {}
+[7.226840] (-) TimerEvent: {}
+[7.327231] (-) TimerEvent: {}
+[7.427588] (-) TimerEvent: {}
+[7.527946] (-) TimerEvent: {}
+[7.628329] (-) TimerEvent: {}
+[7.728702] (-) TimerEvent: {}
+[7.829082] (-) TimerEvent: {}
+[7.929463] (-) TimerEvent: {}
+[8.029829] (-) TimerEvent: {}
+[8.130227] (-) TimerEvent: {}
+[8.230639] (-) TimerEvent: {}
+[8.331091] (-) TimerEvent: {}
+[8.431452] (-) TimerEvent: {}
+[8.531804] (-) TimerEvent: {}
+[8.632241] (-) TimerEvent: {}
+[8.732598] (-) TimerEvent: {}
+[8.832956] (-) TimerEvent: {}
+[8.933320] (-) TimerEvent: {}
+[9.033687] (-) TimerEvent: {}
+[9.134056] (-) TimerEvent: {}
+[9.234413] (-) TimerEvent: {}
+[9.334760] (-) TimerEvent: {}
+[9.435079] (-) TimerEvent: {}
+[9.535424] (-) TimerEvent: {}
+[9.635774] (-) TimerEvent: {}
+[9.736132] (-) TimerEvent: {}
+[9.836487] (-) TimerEvent: {}
+[9.936868] (-) TimerEvent: {}
+[10.037253] (-) TimerEvent: {}
+[10.137620] (-) TimerEvent: {}
+[10.238001] (-) TimerEvent: {}
+[10.338371] (-) TimerEvent: {}
+[10.438745] (-) TimerEvent: {}
+[10.539080] (-) TimerEvent: {}
+[10.639445] (-) TimerEvent: {}
+[10.739822] (-) TimerEvent: {}
+[10.840206] (-) TimerEvent: {}
+[10.940560] (-) TimerEvent: {}
+[11.040932] (-) TimerEvent: {}
+[11.141297] (-) TimerEvent: {}
+[11.241666] (-) TimerEvent: {}
+[11.342055] (-) TimerEvent: {}
+[11.442425] (-) TimerEvent: {}
+[11.542802] (-) TimerEvent: {}
+[11.643256] (-) TimerEvent: {}
+[11.743623] (-) TimerEvent: {}
+[11.844025] (-) TimerEvent: {}
+[11.944376] (-) TimerEvent: {}
+[12.044769] (-) TimerEvent: {}
+[12.145217] (-) TimerEvent: {}
+[12.245571] (-) TimerEvent: {}
+[12.346022] (-) TimerEvent: {}
+[12.446498] (-) TimerEvent: {}
+[12.546854] (-) TimerEvent: {}
+[12.647240] (-) TimerEvent: {}
+[12.747588] (-) TimerEvent: {}
+[12.847948] (-) TimerEvent: {}
+[12.948324] (-) TimerEvent: {}
+[13.048746] (-) TimerEvent: {}
+[13.145691] (sdv_serial) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sdv_serial_node2.dir/build.make:79: CMakeFiles/sdv_serial_node2.dir/src/sdv_serial_node2.cpp.o] Error 1\n'}
+[13.146073] (sdv_serial) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[13.146697] (sdv_serial) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/cafsanchezdi/ros2_ws/build/sdv_serial'\n"}
+[13.147142] (sdv_serial) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:629: CMakeFiles/sdv_serial_node2.dir/all] Error 2\n'}
+[13.147405] (sdv_serial) StderrLine: {'line': b'gmake: *** [Makefile:149: all] Error 2\n'}
+[13.148755] (sdv_serial) StdoutLine: {'line': b'\n'}
+[13.148951] (-) TimerEvent: {}
+[13.152882] (sdv_serial) CommandEnded: {'returncode': 2}
+[13.192267] (sdv_serial) JobEnded: {'identifier': 'sdv_serial', 'rc': 2}
+[13.203526] (-) EventReactorShutdown: {}

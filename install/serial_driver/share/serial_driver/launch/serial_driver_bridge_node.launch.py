@@ -1,0 +1,1 @@
+/home/cafsanchezdi/ros2_ws/src/serial_driver/launch/serial_driver_bridge_node.launch.py

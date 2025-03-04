@@ -1,0 +1,3 @@
+[submodule "src/sdvun_sim/submodules/realsense_gazebo_plugin"]
+	path = src/sdvun_sim/submodules/realsense_gazebo_plugin
+	url = https://github.com/SyrianSpock/realsense_gazebo_plugin.git
