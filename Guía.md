@@ -26,7 +26,8 @@ sudo apt update && sudo apt install -y \
     ros-jazzy-nav2-planner \
     ros-jazzy-rtabmap-ros \
     ros-jazzy-imu-tools \
-    ros-jazzy-nav2-regulated-pure-pursuit-controller
+    ros-jazzy-nav2-regulated-pure-pursuit-controller\
+    ros-jazzy-sick-scan-xd
 ```
 ### 3. Verificación de instalación
 
