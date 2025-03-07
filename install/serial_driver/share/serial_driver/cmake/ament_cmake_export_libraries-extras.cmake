@@ -1,1 +1,0 @@
-/home/cafsanchezdi/ros2_ws/build/serial_driver/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

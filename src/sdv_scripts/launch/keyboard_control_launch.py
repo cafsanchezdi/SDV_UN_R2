@@ -7,13 +7,13 @@ from launch.substitutions import LaunchConfiguration
 def generate_launch_description():
     return LaunchDescription([
         # Declare launch arguments
-        DeclareLaunchArgument('linear_scale', default_value='0.5',
+        DeclareLaunchArgument('linear_scale', default_value='0.4',
                               description='Scaling factor for linear velocity'),
-        DeclareLaunchArgument('angular_scale', default_value='1',
+        DeclareLaunchArgument('angular_scale', default_value='0.4',
                               description='Scaling factor for angular velocity'),
-        DeclareLaunchArgument('linear_accel', default_value='1',
+        DeclareLaunchArgument('linear_accel', default_value='0.5',
                               description='Linear acceleration factor'),
-        DeclareLaunchArgument('angular_accel', default_value='2',
+        DeclareLaunchArgument('angular_accel', default_value='0.5',
                               description='Angular acceleration factor'),
         DeclareLaunchArgument('cmd_vel', default_value='mobile_base/commands/velocity',
                               description='Command velocity topic'),

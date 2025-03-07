@@ -11,6 +11,8 @@ lib/
 msg_gen/
 srv_gen/
 *.bag
+**/__pycache__
+**/*.pyc
 
 # We don't care about vi swp backup files and gedit backup files
 *.swp

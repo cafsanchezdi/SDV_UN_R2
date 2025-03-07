@@ -6,12 +6,19 @@ abandoned projects.
 ## Software Requirements
 - Ubuntu 18.04 Server
 - ROS Melodic
+- Python 2.7
+- Python 3.x
+
+Aditional requirements for Intel Realsense Cameras
+- OpenCV
 
 ## Installation
 
 ### 1. On Ubuntu 18.04 install ROS and create a ROS workspace
 
 Install [ROS melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) and create a ROS [Workspace](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
+
+It's recomended to use *catkin tools*. This python package its a wrapper of *catkin* that contains many usefull tools. Visit [this lin](https://catkin-tools.readthedocs.io/en/latest/installing.html) for instructions.
 
 ### 2. Clone the sdv_un_ros project
 
@@ -25,7 +32,7 @@ git clone https://gitlab.com/LabFabEx/sdv_un_ros.git
 Install ROS packages required with command below:
 
 ```bash
-sudo apt install ros-melodic-lms1xx ros-melodic-map-server ros-melodic-move-base ros-melodic-amcl ros-melodic-rosbridge-server ros-melodic-robot-localization ros-melodic-hector-mapping ros-melodic-imu-complementary-filter ros-melodic-serial ros-melodic-global-planner ros-melodic-eband-local-planner ros-melodic-rtabmap
+sudo apt install ros-melodic-lms1xx ros-melodic-map-server ros-melodic-move-base ros-melodic-amcl ros-melodic-rosbridge-server ros-melodic-robot-localization ros-melodic-hector-mapping ros-melodic-imu-complementary-filter ros-melodic-serial ros-melodic-global-planner ros-melodic-eband-local-planner ros-melodic-rtabmap ros-melodic-imu-tools
 ```
 
 ### 4. Catkin_make
@@ -148,7 +155,10 @@ ln -s params/sdv2_params.yaml sdv_params.yaml
 cat $(rospack find sdv_nav)/sdv_params.yaml
 ```
 
-### 10. Init PRIA
+### 10. Add Realsense packages
+This step is required for SDVs that uses RealSense Depth Cameras. Follow the specific guide for this step (search in LabFabEx documentation).
+
+### 11. Init PRIA
 
 PRIA for SDVUNx is installed in **sdv_process** package and requires **Node** 
 to works. PRIA for SDVUNx requires **ros-coms** and **firebase-coms** packages, 
@@ -188,8 +198,28 @@ npm install
 npx tsc
 ```
 
+## How to Use
 
-// TODO
-Agregar repositorio de camara, se encuentra en la docuemntaciòn
-- realsense_camera
-- paquetes rtab_map (leer documentaciòn)
+- Run the Navigation Stack: a set of nodes that allows to navigate in the laboratory.
+```
+roslaunch sdv_nav sdv_nav.launch
+```
+- Send commands using any of the available options
+  * Rostopic pub (terminal)
+  * RViz
+  * SDV-Map-Viewer
+
+- To use an SDV with PRIA, run the next command:
+```
+roslaunch sdv_process process.launch
+```
+
+- Then, connect the ROS Firebase client (aka *ros-coms*) with the cloud, using some of these options:
+  * Through terminal, using CURL:
+  ```
+  curl -X POST localhost:3000/connect
+  ```
+
+  * Using Node-RED
+
+- Finally, upload a proccess that uses the SDV, using Node-RED.

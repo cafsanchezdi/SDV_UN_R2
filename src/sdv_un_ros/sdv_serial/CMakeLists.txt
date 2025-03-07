@@ -1,82 +1,62 @@
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 3.8)
 project(sdv_serial)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Buscar paquetes necesarios
 find_package(PkgConfig REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(rosbag2_cpp REQUIRED)  
+find_package(rosbag2_cpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(serial_driver REQUIRED)  # Verifica que 'serial_driver' esté instalado
+find_package(sdv_msgs REQUIRED)
+find_package(Eigen3 REQUIRED)
 
-#Serial library lookup
-
-#include_directories(${CMAKE_SOURCE_DIR}/src/serial/include)
-find_package(serial_driver REQUIRED)
-
-#pkg_check_modules(SERIAL REQUIRED serial)
-#include_directories(${SERIAL_INCLUDE_DIRS})
-
-
-
-#pkg_check_modules(SERIAL REQUIRED serial)
-# Msg interfaces generation
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Encoder.msg"
-  "msg/SdvStatus.msg"
-  "msg/Ultrasound.msg"
-  "msg/Flexiforce.msg"
-  "msg/Battery.msg"
-  "msg/TagRfid.msg"
-  "msg/Motors.msg"
-  DEPENDENCIES std_msgs
-)
-
-ament_export_dependencies(rosidl_default_runtime)
-
-# Declare the executable
-add_executable(sdv_serial_node2
-  src/sdv_serial_node2.cpp
+# Declarar el ejecutable
+add_executable(sdv_serial_node
+  src/sdv_serial_node.cpp
   src/motor.cpp
+  src/tools.cpp
+  src/two_drive_controller.cpp
+  src/four_drive_controller.cpp
 )
-#target_link_libraries(sdv_serial_node2
- # ${CMAKE_SOURCE_DIR}/install/serial/lib/libserial.so
-#)
 
-# Include directories for generated messages
-target_include_directories(sdv_serial_node2 PRIVATE
+# Incluir directorios
+target_include_directories(sdv_serial_node PRIVATE
   include
+  include/motor 
+  ${EIGEN3_INCLUDE_DIR}  # Incluir Eigen
   $<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}/rosidl_generator_cpp>
   $<INSTALL_INTERFACE:include>
 )
 
-# Link against generated message types
-rosidl_target_interfaces(sdv_serial_node2 ${PROJECT_NAME} rosidl_typesupport_cpp)
-
-# Dependencies for the executable
-ament_target_dependencies(sdv_serial_node2 
+# Definir las dependencias del ejecutable
+ament_target_dependencies(sdv_serial_node
   rclcpp  
   std_msgs 
   sensor_msgs 
   geometry_msgs
-  rosidl_default_runtime
   serial_driver
+  sdv_msgs
 )
 
-# Install the executable
-install(TARGETS sdv_serial_node2
+# Instalar el ejecutable
+install(TARGETS sdv_serial_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
-# Ensure message headers are installed
+# Instalar archivos de encabezado
 install(
   DIRECTORY include/
   DESTINATION include
 )
-#target serial lib
-#target_link_libraries(sdv_serial_node2 ${SERIAL_LIBRARIES})
+
+# Asegurarse de que las dependencias se exporten
+ament_export_dependencies(rclcpp std_msgs sensor_msgs geometry_msgs serial_driver sdv_msgs)
+
 ament_package()
 

@@ -1,1 +1,0 @@
-/home/cafsanchezdi/ros2_ws/src/serial_driver/include/serial_driver/serial_port.hpp

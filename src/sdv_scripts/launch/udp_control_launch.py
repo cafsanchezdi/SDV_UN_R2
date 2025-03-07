@@ -9,7 +9,7 @@ def generate_launch_description():
         # Declare launch arguments
         DeclareLaunchArgument('linear_scale', default_value='0.5',
                               description='Scaling factor for linear velocity'),
-        DeclareLaunchArgument('angular_scale', default_value='0.5',
+        DeclareLaunchArgument('angular_scale', default_value='1',
                               description='Scaling factor for angular velocity'),
         DeclareLaunchArgument('cmd_vel', default_value='mobile_base/commands/velocity',
                               description='Command velocity topic'),
