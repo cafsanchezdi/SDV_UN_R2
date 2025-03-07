@@ -50,6 +50,6 @@ Mantener trazabilidad en el trabajo de manera que se pueda revertir cualquier ef
 Considerar la forma en que los cambios con el tiempo afectan la forma en que realizamos nuestras actividades.  
 Importancia notar aspectos no técnicos de los proyectos, como disponibilidad de tiempo y de materiales, y colaboración.
 
-### Enlace: https://github.com/cafsanchezdi/SDV\_UN\_R2/tree/Project
+### Enlace: https://github.com/cafsanchezdi/SDV_UN_R2/tree/Project
 
 Palabras Clave: SDV, Robotics, AGV, ROS2, ROS1, Migration.
