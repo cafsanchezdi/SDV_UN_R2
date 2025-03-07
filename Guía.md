@@ -79,7 +79,7 @@ Guardar el archivo y aplicar configuración al sistema:
 ```
 
 
-6. **Compilar el workspace** con el siguiente comando:
+5. **Compilar el workspace** con el siguiente comando:
 
 ```sh
 colcon build
