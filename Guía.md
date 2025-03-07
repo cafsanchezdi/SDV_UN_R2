@@ -72,9 +72,9 @@ wifis:
       "LabFabEx":
          password: "<password_here>"
       gateway4: 192.168.1.1
-
-Save file. Next, apply configurations to system:
-
+```
+Guardar el archivo y aplicar configuración al sistema:
+```sh
     sudo netplan apply
 ```
 
