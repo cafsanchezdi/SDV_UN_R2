@@ -75,7 +75,4 @@ Si algún paquete falta, intenta reinstalarlo o verifica que el repositorio de R
 
 ---
 
-Este paso es fundamental para asegurar que el sistema SDV migrado a ROS 2 Jazzy tenga todas las herramientas necesarias para su correcta ejecución.
-
-
 # SDV-UN
