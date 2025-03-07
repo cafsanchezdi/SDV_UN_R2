@@ -1,8 +1,6 @@
 # SDV-UN
 ## Instalación de dependencias para la migración a ROS 2 Jazzy
 
-En este proyecto, algunas dependencias no están incluidas en la instalación base de ROS 2 Jazzy y deben instalarse manualmente. A continuación, se presentan los pasos para instalarlas:
-
 ### 1. Requisitos previos
 
 Antes de continuar con la instalación de dependencias, asegúrate de contar con:
