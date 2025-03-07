@@ -45,8 +45,43 @@ Después de instalar las dependencias, sigue estos pasos:
 1. **Descargar la carpeta `src`** del repositorio.
 2. **Colocar la carpeta `src` en tu workspace de ROS 2**, asegurándote de que la estructura de archivos sea correcta.
 3. **Verificar el archivo de parámetros YAML** en `sdv_nav/`, asegurándote de que corresponda al SDV que estás utilizando.
-4. **Revisar el archivo de configuración de red**, si es necesario, para asegurar compatibilidad con la infraestructura de red utilizada.
-5. **Compilar el workspace** con el siguiente comando:
+4. **Implementar el archivo de configuración de red**
+   Esto se hace Creando un archivo "/etc/netplan folder named “01-netcfg.yaml”. Use next command:
+```sh
+    sudo vim /etc/netplan/01-netcfg.yaml
+```
+Introduciendo el siguiente código como el contenido. La contraseña es la contraseña que corresponde a la red local LabFabEx:
+```sh
+
+network:
+version: 2
+renderer: networkd
+ethernets:
+   eno1:
+      dhcp4: no
+      addresses:
+      - 192.168.0.158/24
+      optional: true
+      routes:
+      - to: 192.168.0.0/24
+         via: 192.168.0.1
+         metric: 100
+         on-link: true
+wifis:
+   wlp2s0:
+      dhcp4: yes
+      access-points:
+      "LabFabEx":
+         password: "<password_here>"
+      gateway4: 192.168.1.1
+
+Save file. Next, apply configurations to system:
+
+    sudo netplan apply
+```
+
+
+6. **Compilar el workspace** con el siguiente comando:
 
 ```sh
 colcon build
