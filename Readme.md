@@ -1,16 +1,16 @@
 # MIGRACIÓN SDV UNx ROS1 A ROS2
 
-## Estudiante: Carlos Felipe Sánchez Díaz
+### Estudiante: Carlos Felipe Sánchez Díaz
 
-## Código: 25481117
+### Código: 25481117
 
-## Fecha de inicio: 28 Octubre 2024
+### Fecha de inicio: 28 Octubre 2024
 
-## Fecha de Finalización: TBD
+### Fecha de Finalización: TBD
 
-## Director del Trabajo: [Pedro Fabian Cardenas Herrera](mailto:pfcardenash@unal.edu.co)
+### Director del Trabajo: [Pedro Fabian Cardenas Herrera](mailto:pfcardenash@unal.edu.co)
 
-## Entidad: Universidad Nacional de Colombia.
+### Entidad: Universidad Nacional de Colombia.
 
 ### Objetivo
 
