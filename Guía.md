@@ -28,17 +28,15 @@ sudo apt update && sudo apt install -y \
     ros-jazzy-imu-tools \
     ros-jazzy-nav2-regulated-pure-pursuit-controller
 ```
+### 3. Verificación de instalación
 
-### 3. Instalación de `sick_scan_xd`
+Para verificar que los paquetes se instalaron correctamente, usa el siguiente comando:
 
-Para instalar el paquete `sick_scan_xd`, sigue estos pasos:
+Si algún paquete falta, intenta reinstalarlo o verifica que el repositorio de ROS 2 está correctamente configurado en tu sistema.
 
 ```sh
-sudo apt update && sudo apt install -y sick_scan_xd
+ros2 pkg list | grep -E "(nav2|slam|sick|imu|robot|rosbridge)"
 ```
-
-Si necesitas una versión específica o personalizada, también puedes clonarlo desde su repositorio y compilarlo manualmente en tu espacio de trabajo ROS 2.
-
 ### 4. Configuración del workspace
 
 Después de instalar las dependencias, sigue estos pasos:
@@ -52,9 +50,11 @@ Después de instalar las dependencias, sigue estos pasos:
 ```sh
 colcon build
 ```
-
-### 5. Ejecución del entorno del SDV
-
+Hacer source del nuevo install para actualizar el entorno:
+```sh
+source install/setup.bash
+```
+6. Ejecución del entorno del SDV
 Para lanzar el entorno del SDV, utiliza el siguiente comando:
 
 ```sh
@@ -63,15 +63,6 @@ ros2 launch sdv_process process_launch.py
 
 El archivo de ejecución del sistema se encuentra en uno de los scripts dentro de la carpeta `sdv_scripts`, por lo que debes verificar que el script correspondiente esté correctamente configurado antes de ejecutar el sistema.
 
-### 6. Verificación de instalación
-
-Para verificar que los paquetes se instalaron correctamente, usa el siguiente comando:
-
-```sh
-ros2 pkg list | grep -E "(nav2|slam|sick|imu|robot|rosbridge)"
-```
-
-Si algún paquete falta, intenta reinstalarlo o verifica que el repositorio de ROS 2 está correctamente configurado en tu sistema.
 
 ---
 
