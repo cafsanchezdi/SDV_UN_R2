@@ -97,7 +97,7 @@ Para lanzar el entorno del SDV, utiliza el siguiente comando:
 ros2 launch sdv_process process_launch.py
 ```
 
-El archivo de ejecución del sistema se encuentra en uno de los scripts dentro de la carpeta `sdv_scripts`, por lo que debes verificar que el script correspondiente esté correctamente configurado antes de ejecutar el sistema.
+El archivo de parámetros del SDV se encuentra en uno de los scripts dentro de la carpeta `sdv_scripts`, por lo que se debe verificar que el script correspondiente esté correctamente configurado antes de utilizar el SDV.
 
 
 ---
