@@ -90,7 +90,7 @@ Hacer source del nuevo install para actualizar el entorno:
 ```sh
 source install/setup.bash
 ```
-6. Ejecución del entorno del SDV
+### 5. Ejecución del entorno del SDV
 Para lanzar el entorno del SDV, utiliza el siguiente comando:
 
 ```sh
