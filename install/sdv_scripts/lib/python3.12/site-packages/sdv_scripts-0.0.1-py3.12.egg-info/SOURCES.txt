@@ -4,3 +4,5 @@ sdv_scripts.egg-info/PKG-INFO
 sdv_scripts.egg-info/SOURCES.txt
 sdv_scripts.egg-info/dependency_links.txt
 sdv_scripts.egg-info/top_level.txt
+sdv_scripts/msg/__init__.py
+sdv_scripts/msg/_udp.py

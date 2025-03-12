@@ -1,0 +1,9 @@
+/home/cafsanchezdi/ros2_ws/build/camera_platform/CMakeFiles/uninstall.dir
+/home/cafsanchezdi/ros2_ws/build/camera_platform/CMakeFiles/camera_platform_uninstall.dir
+/home/cafsanchezdi/ros2_ws/build/camera_platform/CMakeFiles/test.dir
+/home/cafsanchezdi/ros2_ws/build/camera_platform/CMakeFiles/edit_cache.dir
+/home/cafsanchezdi/ros2_ws/build/camera_platform/CMakeFiles/rebuild_cache.dir
+/home/cafsanchezdi/ros2_ws/build/camera_platform/CMakeFiles/list_install_components.dir
+/home/cafsanchezdi/ros2_ws/build/camera_platform/CMakeFiles/install.dir
+/home/cafsanchezdi/ros2_ws/build/camera_platform/CMakeFiles/install/local.dir
+/home/cafsanchezdi/ros2_ws/build/camera_platform/CMakeFiles/install/strip.dir

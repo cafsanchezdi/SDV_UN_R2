@@ -230,7 +230,6 @@ void sendMessage(const std::string& msg_w) {
         ser.port()->send(cmd_w); // Enviar el mensaje
     }
 
-
 //Función de lectura de linea
 
 std::string readline(drivers::serial_driver::SerialDriver &ser)

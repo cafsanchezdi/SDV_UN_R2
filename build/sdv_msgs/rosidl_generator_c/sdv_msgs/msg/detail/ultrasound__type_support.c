@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "sdv_msgs/msg/detail/ultrasound__type_support.h"
 #include "sdv_msgs/msg/detail/ultrasound__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "sdv_msgs/msg/detail/ultrasound__type_support.h"
 #include "sdv_msgs/msg/detail/ultrasound__struct.h"
 
 #ifdef __cplusplus

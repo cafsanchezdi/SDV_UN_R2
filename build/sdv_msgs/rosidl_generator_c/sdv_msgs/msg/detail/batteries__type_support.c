@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "sdv_msgs/msg/detail/batteries__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "sdv_msgs/msg/detail/batteries__struct.h"
 #include "sdv_msgs/msg/detail/batteries__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

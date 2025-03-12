@@ -6,8 +6,8 @@
 
 #include "sdv_msgs/msg/detail/imu_raw__type_support.h"
 #include "sdv_msgs/msg/detail/imu_raw__struct.h"
-#include "sdv_msgs/msg/detail/imu_raw__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "sdv_msgs/msg/detail/imu_raw__functions.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "sdv_msgs/msg/detail/sdv_status__type_support.h"
-#include "sdv_msgs/msg/detail/sdv_status__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "sdv_msgs/msg/detail/sdv_status__functions.h"
+#include "sdv_msgs/msg/detail/sdv_status__struct.h"
 
 #ifdef __cplusplus
 extern "C"

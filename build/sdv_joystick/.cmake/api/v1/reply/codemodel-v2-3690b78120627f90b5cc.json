@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-28e83c68d4578c05df98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sdv_joystick",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sdv_joystick_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdv_joystick_node-f781025843e3e49cd4e7.json",
+					"name" : "sdv_joystick_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdv_joystick_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdv_joystick_uninstall-5d71d7080586b0717cc7.json",
+					"name" : "sdv_joystick_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ba1e13197cc67c3b8cef.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cafsanchezdi/ros2_ws/build/sdv_joystick",
+		"source" : "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_joystick"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

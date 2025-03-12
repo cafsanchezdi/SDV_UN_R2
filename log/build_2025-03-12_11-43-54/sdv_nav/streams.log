@@ -1,0 +1,53 @@
+[0.208s] Invoking command in '/home/cafsanchezdi/ros2_ws/build/sdv_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cafsanchezdi/ros2_ws/build/sdv_nav -- -j4 -l4
+[0.252s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.742s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.854s] -- Configuring done (0.6s)
+[0.866s] -- Generating done (0.0s)
+[0.868s] -- Build files have been written to: /home/cafsanchezdi/ros2_ws/build/sdv_nav
+[0.903s] Invoked command in '/home/cafsanchezdi/ros2_ws/build/sdv_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cafsanchezdi/ros2_ws/build/sdv_nav -- -j4 -l4
+[0.919s] Invoking command in '/home/cafsanchezdi/ros2_ws/build/sdv_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cafsanchezdi/ros2_ws/build/sdv_nav
+[0.931s] -- Install configuration: ""
+[0.931s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/lib/sdv_nav
+[0.931s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/lib/sdv_nav/costmap_cleaner.py
+[0.932s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/lib/sdv_nav/run_laser_node.sh
+[0.932s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/lib/sdv_nav/pose_to_tf.py
+[0.932s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/lib/sdv_nav/fake_odometry.py
+[0.932s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/lib/sdv_nav/get_param.py
+[0.932s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch
+[0.932s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/amcl.launch
+[0.932s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/hector_mapping.launch
+[0.932s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/nav_stack_launch.py
+[0.932s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/amcl_launch.py
+[0.932s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/nav_stack.launch
+[0.932s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/rtab_map_launch.py
+[0.932s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/.rtab_map.launch.swo
+[0.933s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/move_base.launch
+[0.933s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/rtab_map.launch
+[0.933s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/camera.launch
+[0.933s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/camera_launch.py
+[0.933s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/__pycache__
+[0.933s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/__pycache__/camera_launch.cpython-312.pyc
+[0.933s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/__pycache__/sdv_nav_launch.cpython-312.pyc
+[0.933s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/sdv_nav.launch
+[0.933s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/startup.launch
+[0.933s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/lms1xx_launch.py
+[0.933s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/lms1xx.launch
+[0.933s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/SLAM_mapping_launch.py
+[0.933s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/sdv_nav_launch.py
+[0.934s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/launch/move_base_launch.py
+[0.934s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/ament_index/resource_index/package_run_dependencies/sdv_nav
+[0.934s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/ament_index/resource_index/parent_prefix_path/sdv_nav
+[0.934s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/environment/ament_prefix_path.sh
+[0.934s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/environment/ament_prefix_path.dsv
+[0.934s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/environment/path.sh
+[0.934s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/environment/path.dsv
+[0.934s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/local_setup.bash
+[0.934s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/local_setup.sh
+[0.934s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/local_setup.zsh
+[0.935s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/local_setup.dsv
+[0.935s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/package.dsv
+[0.935s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/ament_index/resource_index/packages/sdv_nav
+[0.935s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/cmake/sdv_navConfig.cmake
+[0.935s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/cmake/sdv_navConfig-version.cmake
+[0.935s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_nav/share/sdv_nav/package.xml
+[0.938s] Invoked command in '/home/cafsanchezdi/ros2_ws/build/sdv_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cafsanchezdi/ros2_ws/build/sdv_nav

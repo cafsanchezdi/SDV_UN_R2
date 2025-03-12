@@ -8,7 +8,6 @@
 #include "geometry_msgs/msg/twist_with_covariance_stamped.hpp"
 #include "geometry_msgs/msg/vector3.hpp"
 
-// sdv_serial messages
 #include "sdv_serial/msg/battery.hpp"
 #include "sdv_serial/msg/encoder.hpp"
 #include "sdv_serial/msg/flexiforce.hpp"

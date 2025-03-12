@@ -1,0 +1,4 @@
+Invoking command in '/home/cafsanchezdi/ros2_ws/build/sdv_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cafsanchezdi/ros2_ws/build/sdv_nav -- -j4 -l4
+Invoked command in '/home/cafsanchezdi/ros2_ws/build/sdv_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cafsanchezdi/ros2_ws/build/sdv_nav -- -j4 -l4
+Invoking command in '/home/cafsanchezdi/ros2_ws/build/sdv_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cafsanchezdi/ros2_ws/build/sdv_nav
+Invoked command in '/home/cafsanchezdi/ros2_ws/build/sdv_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cafsanchezdi/ros2_ws/build/sdv_nav

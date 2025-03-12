@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "sdv_msgs/msg/detail/tag_rfid__type_support.h"
 #include "sdv_msgs/msg/detail/tag_rfid__struct.h"
+#include "sdv_msgs/msg/detail/tag_rfid__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "sdv_msgs/msg/detail/tag_rfid__functions.h"
 

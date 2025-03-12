@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "sdv_scripts/msg/detail/udp__type_support.h"
 #include "sdv_scripts/msg/detail/udp__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "sdv_scripts/msg/detail/udp__functions.h"
-#include "sdv_scripts/msg/detail/udp__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

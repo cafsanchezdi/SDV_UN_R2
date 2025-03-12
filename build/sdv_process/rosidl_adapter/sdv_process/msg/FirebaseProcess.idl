@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sdv_process/msg/FirebaseProcess.msg
+// generated code does not contain a copyright notice
+
+
+module sdv_process {
+  module msg {
+    struct FirebaseProcess {
+      string key;
+
+      string value;
+    };
+  };
+};

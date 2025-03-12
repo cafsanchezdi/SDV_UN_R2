@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "sdv_msgs/msg/detail/four_motors__type_support.h"
-#include "sdv_msgs/msg/detail/four_motors__struct.h"
 #include "sdv_msgs/msg/detail/four_motors__functions.h"
+#include "sdv_msgs/msg/detail/four_motors__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "sdv_msgs/msg/detail/four_motors__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -1,0 +1,10 @@
+/home/cafsanchezdi/ros2_ws/build/sdv_joystick/CMakeFiles/uninstall.dir
+/home/cafsanchezdi/ros2_ws/build/sdv_joystick/CMakeFiles/sdv_joystick_uninstall.dir
+/home/cafsanchezdi/ros2_ws/build/sdv_joystick/CMakeFiles/sdv_joystick_node.dir
+/home/cafsanchezdi/ros2_ws/build/sdv_joystick/CMakeFiles/test.dir
+/home/cafsanchezdi/ros2_ws/build/sdv_joystick/CMakeFiles/edit_cache.dir
+/home/cafsanchezdi/ros2_ws/build/sdv_joystick/CMakeFiles/rebuild_cache.dir
+/home/cafsanchezdi/ros2_ws/build/sdv_joystick/CMakeFiles/list_install_components.dir
+/home/cafsanchezdi/ros2_ws/build/sdv_joystick/CMakeFiles/install.dir
+/home/cafsanchezdi/ros2_ws/build/sdv_joystick/CMakeFiles/install/local.dir
+/home/cafsanchezdi/ros2_ws/build/sdv_joystick/CMakeFiles/install/strip.dir

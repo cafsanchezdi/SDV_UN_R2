@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "sdv_msgs/msg/detail/two_motors__struct.h"
-#include "sdv_msgs/msg/detail/two_motors__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "sdv_msgs/msg/detail/two_motors__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "sdv_msgs/msg/detail/two_motors__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

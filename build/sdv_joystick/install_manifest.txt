@@ -1,0 +1,16 @@
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/lib/sdv_joystick/sdv_joystick_node
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/ament_index/resource_index/package_run_dependencies/sdv_joystick
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/ament_index/resource_index/parent_prefix_path/sdv_joystick
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/sdv_joystick/environment/ament_prefix_path.sh
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/sdv_joystick/environment/ament_prefix_path.dsv
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/sdv_joystick/environment/path.sh
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/sdv_joystick/environment/path.dsv
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/sdv_joystick/local_setup.bash
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/sdv_joystick/local_setup.sh
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/sdv_joystick/local_setup.zsh
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/sdv_joystick/local_setup.dsv
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/sdv_joystick/package.dsv
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/ament_index/resource_index/packages/sdv_joystick
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/sdv_joystick/cmake/sdv_joystickConfig.cmake
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/sdv_joystick/cmake/sdv_joystickConfig-version.cmake
+/home/cafsanchezdi/ros2_ws/install/sdv_joystick/share/sdv_joystick/package.xml

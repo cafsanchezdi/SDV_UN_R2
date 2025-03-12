@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "sdv_msgs/msg/detail/flexiforce__type_support.h"
-#include "sdv_msgs/msg/detail/flexiforce__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "sdv_msgs/msg/detail/flexiforce__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "sdv_msgs/msg/detail/flexiforce__functions.h"
 
 #ifdef __cplusplus
 extern "C"

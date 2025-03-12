@@ -1,0 +1,744 @@
+[0.036s] Invoking command in '/home/cafsanchezdi/ros2_ws/build/sdv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs -DCMAKE_INSTALL_PREFIX=/home/cafsanchezdi/ros2_ws/install/sdv_msgs
+[0.121s] -- The C compiler identification is GNU 13.3.0
+[0.191s] -- The CXX compiler identification is GNU 13.3.0
+[0.212s] -- Detecting C compiler ABI info
+[0.331s] -- Detecting C compiler ABI info - done
+[0.338s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.338s] -- Detecting C compile features
+[0.340s] -- Detecting C compile features - done
+[0.352s] -- Detecting CXX compiler ABI info
+[0.480s] -- Detecting CXX compiler ABI info - done
+[0.489s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.489s] -- Detecting CXX compile features
+[0.489s] -- Detecting CXX compile features - done
+[0.497s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.682s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.831s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.846s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.927s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.001s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.012s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.127s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.135s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.271s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.295s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.322s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.421s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.431s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.279s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.881s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.641s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.652s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.815s] -- Found PythonExtra: /usr/bin/python3  
+[4.333s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.426s] -- Configuring done (4.4s)
+[4.495s] -- Generating done (0.1s)
+[4.510s] -- Build files have been written to: /home/cafsanchezdi/ros2_ws/build/sdv_msgs
+[4.530s] Invoked command in '/home/cafsanchezdi/ros2_ws/build/sdv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_msgs -DCMAKE_INSTALL_PREFIX=/home/cafsanchezdi/ros2_ws/install/sdv_msgs
+[4.530s] Invoking command in '/home/cafsanchezdi/ros2_ws/build/sdv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cafsanchezdi/ros2_ws/build/sdv_msgs -- -j4 -l4
+[4.618s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.631s] [  1%] Built target ament_cmake_python_copy_sdv_msgs
+[4.861s] running egg_info
+[4.862s] creating sdv_msgs.egg-info
+[4.883s] writing sdv_msgs.egg-info/PKG-INFO
+[4.883s] writing dependency_links to sdv_msgs.egg-info/dependency_links.txt
+[4.884s] writing top-level names to sdv_msgs.egg-info/top_level.txt
+[4.884s] writing manifest file 'sdv_msgs.egg-info/SOURCES.txt'
+[4.942s] reading manifest file 'sdv_msgs.egg-info/SOURCES.txt'
+[4.943s] writing manifest file 'sdv_msgs.egg-info/SOURCES.txt'
+[4.986s] [  1%] Built target ament_cmake_python_build_sdv_msgs_egg
+[5.141s] [  1%] Built target sdv_msgs__rosidl_generator_type_description
+[5.158s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.175s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.610s] [  1%] Built target sdv_msgs__cpp
+[6.929s] [  2%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/batteries__type_support.c.o[0m
+[6.929s] [  1%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/batteries__functions.c.o[0m
+[6.929s] [  3%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/batteries__description.c.o[0m
+[6.940s] [  3%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/battery__description.c.o[0m
+[6.969s] [  4%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/battery__functions.c.o[0m
+[7.006s] [  4%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/battery__type_support.c.o[0m
+[7.025s] [  5%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/buzzer__description.c.o[0m
+[7.029s] [  5%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/buzzer__functions.c.o[0m
+[7.040s] [  6%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/buzzer__type_support.c.o[0m
+[7.069s] [  7%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/drivers__description.c.o[0m
+[7.084s] [  7%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/drivers__functions.c.o[0m
+[7.106s] [  8%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/drivers__type_support.c.o[0m
+[7.127s] [  8%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/encoder__description.c.o[0m
+[7.137s] [  9%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/encoder__functions.c.o[0m
+[7.162s] [ 10%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/flexiforce__description.c.o[0m
+[7.166s] [ 10%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/encoder__type_support.c.o[0m
+[7.206s] [ 10%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/flexiforce__functions.c.o[0m
+[7.220s] [ 11%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/flexiforce__type_support.c.o[0m
+[7.222s] [ 11%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/four_motors__description.c.o[0m
+[7.227s] [ 12%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/four_motors__functions.c.o[0m
+[7.274s] [ 13%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/four_motors__type_support.c.o[0m
+[7.283s] [ 13%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/imu_raw__description.c.o[0m
+[7.294s] [ 14%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/imu_raw__functions.c.o[0m
+[7.297s] [ 14%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/imu_raw__type_support.c.o[0m
+[7.327s] [ 15%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/led__description.c.o[0m
+[7.343s] [ 15%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/led__functions.c.o[0m
+[7.376s] [ 15%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/motor_driver__description.c.o[0m
+[7.378s] [ 16%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/led__type_support.c.o[0m
+[7.380s] [ 17%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/motor_driver__functions.c.o[0m
+[7.433s] [ 17%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/motor_driver__type_support.c.o[0m
+[7.450s] [ 18%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/panel_button__description.c.o[0m
+[7.458s] [ 18%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/panel_button__type_support.c.o[0m
+[7.469s] [ 19%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/panel_button__functions.c.o[0m
+[7.475s] [ 20%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/sdv_platform__description.c.o[0m
+[7.518s] [ 20%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/sdv_platform__functions.c.o[0m
+[7.526s] [ 21%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/sdv_platform__type_support.c.o[0m
+[7.533s] [ 21%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/sdv_status__description.c.o[0m
+[7.565s] [ 22%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/sdv_status__functions.c.o[0m
+[7.582s] [ 22%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/sdv_status__type_support.c.o[0m
+[7.588s] [ 23%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/tag_rfid__description.c.o[0m
+[7.619s] [ 23%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/tag_rfid__functions.c.o[0m
+[7.645s] [ 25%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/two_motors__description.c.o[0m
+[7.649s] [ 25%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/tag_rfid__type_support.c.o[0m
+[7.661s] [ 25%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/two_motors__functions.c.o[0m
+[7.705s] [ 25%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/ultrasound__description.c.o[0m
+[7.714s] [ 26%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/two_motors__type_support.c.o[0m
+[7.714s] [ 27%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/ultrasound__functions.c.o[0m
+[7.736s] [ 27%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_c.dir/rosidl_generator_c/sdv_msgs/msg/detail/ultrasound__type_support.c.o[0m
+[7.783s] [ 28%] [32m[1mLinking C shared library libsdv_msgs__rosidl_generator_c.so[0m
+[7.848s] [ 28%] Built target sdv_msgs__rosidl_generator_c
+[7.866s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.866s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.868s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.883s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.054s] [ 30%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/batteries__type_support.cpp.o[0m
+[9.125s] [ 31%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/batteries__type_support.cpp.o[0m
+[9.209s] [ 31%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/battery__type_support.cpp.o[0m
+[9.291s] [ 32%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/buzzer__type_support.cpp.o[0m
+[9.389s] [ 32%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/drivers__type_support.cpp.o[0m
+[9.410s] [ 33%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/battery__type_support.cpp.o[0m
+[9.486s] [ 34%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/encoder__type_support.cpp.o[0m
+[9.559s] [ 34%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/flexiforce__type_support.cpp.o[0m
+[9.647s] [ 35%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/four_motors__type_support.cpp.o[0m
+[9.736s] [ 35%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/imu_raw__type_support.cpp.o[0m
+[9.754s] [ 35%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/batteries__type_support_c.cpp.o[0m
+[9.759s] [ 36%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/batteries__type_support.c.o[0m
+[9.780s] [ 37%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/buzzer__type_support.cpp.o[0m
+[9.814s] [ 38%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/led__type_support.cpp.o[0m
+[9.876s] [ 39%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/motor_driver__type_support.cpp.o[0m
+[9.880s] [ 39%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/battery__type_support.c.o[0m
+[9.931s] [ 39%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/panel_button__type_support.cpp.o[0m
+[9.981s] [ 40%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/sdv_platform__type_support.cpp.o[0m
+[9.993s] [ 41%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/buzzer__type_support.c.o[0m
+[10.034s] [ 41%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/sdv_status__type_support.cpp.o[0m
+[10.097s] [ 41%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/drivers__type_support.c.o[0m
+[10.099s] [ 42%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/tag_rfid__type_support.cpp.o[0m
+[10.166s] [ 42%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/drivers__type_support.cpp.o[0m
+[10.167s] [ 42%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/two_motors__type_support.cpp.o[0m
+[10.222s] [ 43%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/encoder__type_support.c.o[0m
+[10.242s] [ 44%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sdv_msgs/msg/ultrasound__type_support.cpp.o[0m
+[10.311s] [ 44%] [32m[1mLinking CXX shared library libsdv_msgs__rosidl_typesupport_c.so[0m
+[10.333s] [ 44%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/flexiforce__type_support.c.o[0m
+[10.345s] [ 45%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/battery__type_support_c.cpp.o[0m
+[10.404s] [ 46%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/four_motors__type_support.c.o[0m
+[10.409s] [ 46%] Built target sdv_msgs__rosidl_typesupport_c
+[10.439s] [ 46%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.485s] [ 47%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/imu_raw__type_support.c.o[0m
+[10.585s] [ 47%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/led__type_support.c.o[0m
+[10.596s] [ 48%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/encoder__type_support.cpp.o[0m
+[10.662s] [ 49%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/motor_driver__type_support.c.o[0m
+[10.769s] [ 49%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/panel_button__type_support.c.o[0m
+[10.887s] [ 50%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/sdv_platform__type_support.c.o[0m
+[10.952s] [ 50%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/buzzer__type_support_c.cpp.o[0m
+[10.988s] [ 50%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/sdv_status__type_support.c.o[0m
+[11.012s] [ 50%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/flexiforce__type_support.cpp.o[0m
+[11.066s] [ 51%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/tag_rfid__type_support.c.o[0m
+[11.118s] [ 51%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/two_motors__type_support.c.o[0m
+[11.167s] [ 52%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sdv_msgs/msg/detail/ultrasound__type_support.c.o[0m
+[11.257s] [ 52%] [32m[1mLinking C shared library libsdv_msgs__rosidl_typesupport_introspection_c.so[0m
+[11.379s] [ 52%] Built target sdv_msgs__rosidl_typesupport_introspection_c
+[11.397s] [ 53%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/four_motors__type_support.cpp.o[0m
+[11.518s] [ 53%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/imu_raw__type_support.cpp.o[0m
+[11.527s] [ 54%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/drivers__type_support_c.cpp.o[0m
+[11.820s] [ 55%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/led__type_support.cpp.o[0m
+[11.911s] [ 56%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.129s] [ 56%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/encoder__type_support_c.cpp.o[0m
+[12.202s] [ 56%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/motor_driver__type_support.cpp.o[0m
+[12.320s] [ 57%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/batteries__type_support.cpp.o[0m
+[12.560s] [ 58%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/panel_button__type_support.cpp.o[0m
+[12.677s] [ 59%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/flexiforce__type_support_c.cpp.o[0m
+[12.887s] [ 59%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/sdv_platform__type_support.cpp.o[0m
+[12.901s] [ 60%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/battery__type_support.cpp.o[0m
+[13.168s] [ 60%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/four_motors__type_support_c.cpp.o[0m
+[13.175s] [ 61%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/batteries__type_support.cpp.o[0m
+[13.230s] [ 62%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/sdv_status__type_support.cpp.o[0m
+[13.484s] [ 62%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/buzzer__type_support.cpp.o[0m
+[13.577s] [ 62%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/tag_rfid__type_support.cpp.o[0m
+[13.593s] [ 62%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/battery__type_support.cpp.o[0m
+[13.646s] [ 63%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/imu_raw__type_support_c.cpp.o[0m
+[13.930s] [ 64%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/two_motors__type_support.cpp.o[0m
+[13.937s] [ 65%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/buzzer__type_support.cpp.o[0m
+[14.007s] [ 66%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/drivers__type_support.cpp.o[0m
+[14.132s] [ 67%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/led__type_support_c.cpp.o[0m
+[14.268s] [ 67%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/drivers__type_support.cpp.o[0m
+[14.283s] [ 68%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sdv_msgs/msg/ultrasound__type_support.cpp.o[0m
+[14.587s] [ 68%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/encoder__type_support.cpp.o[0m
+[14.641s] [ 68%] [32m[1mLinking CXX shared library libsdv_msgs__rosidl_typesupport_cpp.so[0m
+[14.657s] [ 68%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/motor_driver__type_support_c.cpp.o[0m
+[14.664s] [ 69%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/encoder__type_support.cpp.o[0m
+[14.699s] [ 69%] Built target sdv_msgs__rosidl_typesupport_cpp
+[14.712s] [ 70%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/flexiforce__type_support.cpp.o[0m
+[15.001s] [ 70%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/flexiforce__type_support.cpp.o[0m
+[15.129s] [ 71%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/panel_button__type_support_c.cpp.o[0m
+[15.156s] [ 71%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/four_motors__type_support.cpp.o[0m
+[15.228s] [ 72%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/four_motors__type_support.cpp.o[0m
+[15.344s] [ 72%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/sdv_platform__type_support_c.cpp.o[0m
+[15.561s] [ 72%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/imu_raw__type_support.cpp.o[0m
+[15.641s] [ 73%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/led__type_support.cpp.o[0m
+[15.659s] [ 74%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/imu_raw__type_support.cpp.o[0m
+[15.849s] [ 75%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/sdv_status__type_support_c.cpp.o[0m
+[15.898s] [ 75%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/led__type_support.cpp.o[0m
+[15.989s] [ 75%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/motor_driver__type_support.cpp.o[0m
+[16.160s] [ 76%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/panel_button__type_support.cpp.o[0m
+[16.344s] [ 77%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/sdv_platform__type_support.cpp.o[0m
+[16.370s] [ 77%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/tag_rfid__type_support_c.cpp.o[0m
+[16.402s] [ 78%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/motor_driver__type_support.cpp.o[0m
+[16.517s] [ 79%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/two_motors__type_support_c.cpp.o[0m
+[16.709s] [ 79%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/sdv_status__type_support.cpp.o[0m
+[16.894s] [ 79%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/panel_button__type_support.cpp.o[0m
+[16.896s] [ 80%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/tag_rfid__type_support.cpp.o[0m
+[17.011s] [ 80%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sdv_msgs/msg/detail/ultrasound__type_support_c.cpp.o[0m
+[17.094s] [ 80%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/two_motors__type_support.cpp.o[0m
+[17.238s] [ 81%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/sdv_platform__type_support.cpp.o[0m
+[17.406s] [ 82%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/sdv_status__type_support.cpp.o[0m
+[17.458s] [ 83%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sdv_msgs/msg/detail/ultrasound__type_support.cpp.o[0m
+[17.516s] [ 84%] [32m[1mLinking CXX shared library libsdv_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[17.641s] [ 84%] Built target sdv_msgs__rosidl_typesupport_fastrtps_c
+[17.654s] [ 84%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/tag_rfid__type_support.cpp.o[0m
+[17.745s] [ 85%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/two_motors__type_support.cpp.o[0m
+[17.844s] [ 85%] [32m[1mLinking CXX shared library libsdv_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[17.939s] [ 85%] [32mBuilding CXX object CMakeFiles/sdv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sdv_msgs/msg/detail/dds_fastrtps/ultrasound__type_support.cpp.o[0m
+[17.996s] [ 85%] Built target sdv_msgs__rosidl_typesupport_introspection_cpp
+[18.425s] [ 86%] [32m[1mLinking CXX shared library libsdv_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.547s] [ 86%] Built target sdv_msgs__rosidl_typesupport_fastrtps_cpp
+[18.578s] [ 86%] Built target sdv_msgs
+[18.611s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[20.118s] [ 87%] Built target sdv_msgs__py
+[20.151s] [ 89%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_drivers_s.c.o[0m
+[20.151s] [ 89%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_buzzer_s.c.o[0m
+[20.152s] [ 89%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_battery_s.c.o[0m
+[20.152s] [ 89%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_batteries_s.c.o[0m
+[20.286s] [ 89%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_encoder_s.c.o[0m
+[20.290s] [ 90%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_flexiforce_s.c.o[0m
+[20.291s] [ 91%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_four_motors_s.c.o[0m
+[20.315s] [ 91%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_imu_raw_s.c.o[0m
+[20.428s] [ 92%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_led_s.c.o[0m
+[20.432s] [ 92%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_motor_driver_s.c.o[0m
+[20.438s] [ 93%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_panel_button_s.c.o[0m
+[20.473s] [ 93%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_sdv_platform_s.c.o[0m
+[20.581s] [ 94%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_sdv_status_s.c.o[0m
+[20.587s] [ 94%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_tag_rfid_s.c.o[0m
+[20.587s] [ 95%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_two_motors_s.c.o[0m
+[20.635s] [ 95%] [32mBuilding C object CMakeFiles/sdv_msgs__rosidl_generator_py.dir/rosidl_generator_py/sdv_msgs/msg/_ultrasound_s.c.o[0m
+[20.788s] [ 96%] [32m[1mLinking C shared library libsdv_msgs__rosidl_generator_py.so[0m
+[20.850s] [ 96%] Built target sdv_msgs__rosidl_generator_py
+[20.881s] [ 98%] [32mBuilding C object CMakeFiles/sdv_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sdv_msgs/_sdv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[20.881s] [ 98%] [32mBuilding C object CMakeFiles/sdv_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sdv_msgs/_sdv_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[20.882s] [ 99%] [32mBuilding C object CMakeFiles/sdv_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/sdv_msgs/_sdv_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[21.035s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/sdv_msgs/sdv_msgs_s__rosidl_typesupport_c.so[0m
+[21.037s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/sdv_msgs/sdv_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[21.043s] [100%] [32m[1mLinking C shared module rosidl_generator_py/sdv_msgs/sdv_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[21.081s] [100%] Built target sdv_msgs_s__rosidl_typesupport_c
+[21.088s] [100%] Built target sdv_msgs_s__rosidl_typesupport_fastrtps_c
+[21.092s] [100%] Built target sdv_msgs_s__rosidl_typesupport_introspection_c
+[21.113s] Invoked command in '/home/cafsanchezdi/ros2_ws/build/sdv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cafsanchezdi/ros2_ws/build/sdv_msgs -- -j4 -l4
+[21.114s] Invoking command in '/home/cafsanchezdi/ros2_ws/build/sdv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cafsanchezdi/ros2_ws/build/sdv_msgs
+[21.125s] -- Install configuration: ""
+[21.126s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/ament_index/resource_index/rosidl_interfaces/sdv_msgs
+[21.126s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Batteries.json
+[21.126s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Battery.json
+[21.126s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Buzzer.json
+[21.126s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Drivers.json
+[21.127s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Encoder.json
+[21.127s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Flexiforce.json
+[21.127s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/FourMotors.json
+[21.128s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/ImuRaw.json
+[21.128s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/LED.json
+[21.128s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/MotorDriver.json
+[21.128s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/PanelButton.json
+[21.129s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/SdvPlatform.json
+[21.129s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/SdvStatus.json
+[21.129s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/TagRfid.json
+[21.129s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/TwoMotors.json
+[21.129s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Ultrasound.json
+[21.130s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs
+[21.130s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg
+[21.130s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/two_motors.h
+[21.130s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/flexiforce.h
+[21.130s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/sdv_status.h
+[21.130s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/four_motors.h
+[21.130s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/panel_button.h
+[21.131s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/rosidl_generator_c__visibility_control.h
+[21.131s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/led.h
+[21.131s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/tag_rfid.h
+[21.131s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/batteries.h
+[21.131s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/ultrasound.h
+[21.131s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/motor_driver.h
+[21.131s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/drivers.h
+[21.131s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/imu_raw.h
+[21.131s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/buzzer.h
+[21.131s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/battery.h
+[21.132s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail
+[21.132s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__type_support.h
+[21.132s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__functions.h
+[21.132s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__functions.h
+[21.132s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__description.c
+[21.132s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__description.c
+[21.132s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__functions.c
+[21.133s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__functions.h
+[21.133s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__struct.h
+[21.133s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__type_support.c
+[21.133s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__description.c
+[21.133s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__description.c
+[21.133s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__type_support.c
+[21.133s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__functions.c
+[21.134s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__functions.h
+[21.134s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__type_support.c
+[21.134s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__type_support.c
+[21.134s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__type_support.h
+[21.134s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__struct.h
+[21.134s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__type_support.h
+[21.135s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__functions.c
+[21.135s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__functions.h
+[21.135s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__type_support.h
+[21.135s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__description.c
+[21.135s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__type_support.h
+[21.135s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__description.c
+[21.135s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__type_support.c
+[21.136s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__description.c
+[21.136s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__struct.h
+[21.136s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__type_support.c
+[21.136s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__type_support.h
+[21.136s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__functions.c
+[21.136s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__functions.h
+[21.136s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__functions.c
+[21.136s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__type_support.c
+[21.136s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__type_support.c
+[21.137s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__type_support.c
+[21.137s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__description.c
+[21.137s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__type_support.h
+[21.137s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__functions.c
+[21.137s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__struct.h
+[21.137s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__description.c
+[21.138s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__struct.h
+[21.138s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__functions.c
+[21.138s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__struct.h
+[21.138s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__functions.h
+[21.138s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__functions.c
+[21.139s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__struct.h
+[21.139s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__description.c
+[21.139s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__struct.h
+[21.139s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__type_support.c
+[21.139s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__functions.h
+[21.139s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__type_support.h
+[21.140s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__struct.h
+[21.140s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__struct.h
+[21.140s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__type_support.h
+[21.140s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__type_support.c
+[21.140s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__functions.h
+[21.140s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__functions.c
+[21.141s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__functions.h
+[21.141s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__functions.h
+[21.141s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__struct.h
+[21.141s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__type_support.c
+[21.142s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__functions.c
+[21.142s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__description.c
+[21.142s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__struct.h
+[21.142s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__functions.c
+[21.142s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__type_support.h
+[21.142s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__struct.h
+[21.142s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__type_support.h
+[21.143s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__type_support.c
+[21.143s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__functions.h
+[21.143s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__struct.h
+[21.143s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__type_support.h
+[21.143s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__functions.c
+[21.143s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__type_support.h
+[21.143s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__type_support.h
+[21.143s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__struct.h
+[21.143s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__functions.c
+[21.144s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__type_support.h
+[21.144s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__functions.h
+[21.144s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__functions.c
+[21.144s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__description.c
+[21.144s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__type_support.h
+[21.144s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__description.c
+[21.145s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__description.c
+[21.145s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__struct.h
+[21.145s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__description.c
+[21.145s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__description.c
+[21.145s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__type_support.c
+[21.145s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__functions.c
+[21.145s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__type_support.c
+[21.145s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__type_support.c
+[21.145s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__functions.h
+[21.145s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__functions.h
+[21.146s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__functions.h
+[21.146s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__functions.c
+[21.146s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/encoder.h
+[21.146s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/sdv_platform.h
+[21.146s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/environment/library_path.sh
+[21.146s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/environment/library_path.dsv
+[21.147s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_generator_c.so
+[21.147s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_generator_c.so" to ""
+[21.148s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs
+[21.148s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg
+[21.148s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[21.148s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail
+[21.148s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__rosidl_typesupport_fastrtps_c.h
+[21.149s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__rosidl_typesupport_fastrtps_c.h
+[21.149s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__rosidl_typesupport_fastrtps_c.h
+[21.149s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__rosidl_typesupport_fastrtps_c.h
+[21.149s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__rosidl_typesupport_fastrtps_c.h
+[21.149s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__rosidl_typesupport_fastrtps_c.h
+[21.149s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__rosidl_typesupport_fastrtps_c.h
+[21.149s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__rosidl_typesupport_fastrtps_c.h
+[21.150s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__rosidl_typesupport_fastrtps_c.h
+[21.150s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__rosidl_typesupport_fastrtps_c.h
+[21.150s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__rosidl_typesupport_fastrtps_c.h
+[21.150s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__rosidl_typesupport_fastrtps_c.h
+[21.150s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__rosidl_typesupport_fastrtps_c.h
+[21.150s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__rosidl_typesupport_fastrtps_c.h
+[21.150s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__rosidl_typesupport_fastrtps_c.h
+[21.150s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__rosidl_typesupport_fastrtps_c.h
+[21.150s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_typesupport_fastrtps_c.so
+[21.151s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[21.151s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs
+[21.151s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg
+[21.151s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[21.151s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail
+[21.151s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__rosidl_typesupport_introspection_c.h
+[21.152s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__rosidl_typesupport_introspection_c.h
+[21.152s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__type_support.c
+[21.152s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__rosidl_typesupport_introspection_c.h
+[21.152s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__type_support.c
+[21.152s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__type_support.c
+[21.152s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__rosidl_typesupport_introspection_c.h
+[21.152s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__type_support.c
+[21.152s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__rosidl_typesupport_introspection_c.h
+[21.153s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__type_support.c
+[21.153s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__type_support.c
+[21.153s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__type_support.c
+[21.153s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__type_support.c
+[21.153s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__type_support.c
+[21.153s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__rosidl_typesupport_introspection_c.h
+[21.154s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__rosidl_typesupport_introspection_c.h
+[21.154s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__rosidl_typesupport_introspection_c.h
+[21.154s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__rosidl_typesupport_introspection_c.h
+[21.154s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__type_support.c
+[21.154s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__rosidl_typesupport_introspection_c.h
+[21.154s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__type_support.c
+[21.155s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__rosidl_typesupport_introspection_c.h
+[21.155s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__rosidl_typesupport_introspection_c.h
+[21.155s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__type_support.c
+[21.155s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__rosidl_typesupport_introspection_c.h
+[21.155s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__type_support.c
+[21.155s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__rosidl_typesupport_introspection_c.h
+[21.156s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__rosidl_typesupport_introspection_c.h
+[21.156s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__type_support.c
+[21.156s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__rosidl_typesupport_introspection_c.h
+[21.156s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__type_support.c
+[21.156s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__type_support.c
+[21.156s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_typesupport_introspection_c.so
+[21.157s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_typesupport_introspection_c.so" to ""
+[21.157s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_typesupport_c.so
+[21.157s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_typesupport_c.so" to ""
+[21.158s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs
+[21.158s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg
+[21.158s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/ultrasound.hpp
+[21.158s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/motor_driver.hpp
+[21.158s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/sdv_platform.hpp
+[21.158s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/imu_raw.hpp
+[21.158s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/two_motors.hpp
+[21.158s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/panel_button.hpp
+[21.159s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/tag_rfid.hpp
+[21.159s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/batteries.hpp
+[21.159s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/encoder.hpp
+[21.159s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[21.159s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/led.hpp
+[21.159s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/buzzer.hpp
+[21.159s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/drivers.hpp
+[21.160s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/four_motors.hpp
+[21.160s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail
+[21.160s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__struct.hpp
+[21.160s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__struct.hpp
+[21.160s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__traits.hpp
+[21.160s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__builder.hpp
+[21.161s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__struct.hpp
+[21.161s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__traits.hpp
+[21.161s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__type_support.hpp
+[21.161s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__builder.hpp
+[21.161s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__struct.hpp
+[21.161s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__traits.hpp
+[21.162s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__traits.hpp
+[21.162s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__struct.hpp
+[21.162s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__traits.hpp
+[21.162s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__builder.hpp
+[21.162s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__struct.hpp
+[21.162s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__builder.hpp
+[21.162s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__type_support.hpp
+[21.162s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__type_support.hpp
+[21.163s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__builder.hpp
+[21.163s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__struct.hpp
+[21.163s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__builder.hpp
+[21.163s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__type_support.hpp
+[21.164s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__traits.hpp
+[21.164s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__type_support.hpp
+[21.164s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__traits.hpp
+[21.164s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__builder.hpp
+[21.164s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__traits.hpp
+[21.164s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__struct.hpp
+[21.165s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__type_support.hpp
+[21.165s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__builder.hpp
+[21.165s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__type_support.hpp
+[21.165s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__type_support.hpp
+[21.165s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__type_support.hpp
+[21.165s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__struct.hpp
+[21.165s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__type_support.hpp
+[21.165s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__builder.hpp
+[21.166s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__struct.hpp
+[21.166s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__type_support.hpp
+[21.167s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__builder.hpp
+[21.167s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__type_support.hpp
+[21.167s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__struct.hpp
+[21.167s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__struct.hpp
+[21.167s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__builder.hpp
+[21.169s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__traits.hpp
+[21.169s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__traits.hpp
+[21.169s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__builder.hpp
+[21.169s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__traits.hpp
+[21.170s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__struct.hpp
+[21.170s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__struct.hpp
+[21.170s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__type_support.hpp
+[21.170s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__type_support.hpp
+[21.170s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__traits.hpp
+[21.171s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__builder.hpp
+[21.171s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__type_support.hpp
+[21.171s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__traits.hpp
+[21.171s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__struct.hpp
+[21.171s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__traits.hpp
+[21.171s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__builder.hpp
+[21.172s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__traits.hpp
+[21.172s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__type_support.hpp
+[21.172s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__builder.hpp
+[21.172s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__traits.hpp
+[21.172s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__struct.hpp
+[21.172s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__builder.hpp
+[21.172s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/sdv_status.hpp
+[21.173s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/battery.hpp
+[21.173s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/flexiforce.hpp
+[21.173s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs
+[21.173s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg
+[21.173s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[21.173s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail
+[21.173s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__rosidl_typesupport_fastrtps_cpp.hpp
+[21.173s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__rosidl_typesupport_fastrtps_cpp.hpp
+[21.173s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__rosidl_typesupport_fastrtps_cpp.hpp
+[21.173s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__rosidl_typesupport_fastrtps_cpp.hpp
+[21.173s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__rosidl_typesupport_fastrtps_cpp.hpp
+[21.173s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__rosidl_typesupport_fastrtps_cpp.hpp
+[21.173s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__rosidl_typesupport_fastrtps_cpp.hpp
+[21.173s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__rosidl_typesupport_fastrtps_cpp.hpp
+[21.173s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__rosidl_typesupport_fastrtps_cpp.hpp
+[21.174s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__rosidl_typesupport_fastrtps_cpp.hpp
+[21.174s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__rosidl_typesupport_fastrtps_cpp.hpp
+[21.174s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/dds_fastrtps
+[21.174s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__rosidl_typesupport_fastrtps_cpp.hpp
+[21.174s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__rosidl_typesupport_fastrtps_cpp.hpp
+[21.174s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__rosidl_typesupport_fastrtps_cpp.hpp
+[21.174s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__rosidl_typesupport_fastrtps_cpp.hpp
+[21.174s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__rosidl_typesupport_fastrtps_cpp.hpp
+[21.174s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_typesupport_fastrtps_cpp.so
+[21.174s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[21.174s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs
+[21.174s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg
+[21.174s] -- Up-to-date: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail
+[21.175s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__rosidl_typesupport_introspection_cpp.hpp
+[21.175s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__type_support.cpp
+[21.175s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__type_support.cpp
+[21.175s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__rosidl_typesupport_introspection_cpp.hpp
+[21.175s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__rosidl_typesupport_introspection_cpp.hpp
+[21.176s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__rosidl_typesupport_introspection_cpp.hpp
+[21.176s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/ultrasound__type_support.cpp
+[21.176s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__type_support.cpp
+[21.176s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__rosidl_typesupport_introspection_cpp.hpp
+[21.176s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_status__rosidl_typesupport_introspection_cpp.hpp
+[21.176s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__type_support.cpp
+[21.176s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__rosidl_typesupport_introspection_cpp.hpp
+[21.176s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/four_motors__type_support.cpp
+[21.177s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__type_support.cpp
+[21.177s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__rosidl_typesupport_introspection_cpp.hpp
+[21.177s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/battery__rosidl_typesupport_introspection_cpp.hpp
+[21.177s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/imu_raw__type_support.cpp
+[21.177s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__rosidl_typesupport_introspection_cpp.hpp
+[21.177s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__rosidl_typesupport_introspection_cpp.hpp
+[21.178s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/tag_rfid__type_support.cpp
+[21.178s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__rosidl_typesupport_introspection_cpp.hpp
+[21.178s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/flexiforce__rosidl_typesupport_introspection_cpp.hpp
+[21.178s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/drivers__type_support.cpp
+[21.179s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__type_support.cpp
+[21.179s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/batteries__type_support.cpp
+[21.179s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/panel_button__rosidl_typesupport_introspection_cpp.hpp
+[21.179s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/motor_driver__rosidl_typesupport_introspection_cpp.hpp
+[21.179s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/led__rosidl_typesupport_introspection_cpp.hpp
+[21.179s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/sdv_platform__type_support.cpp
+[21.179s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/two_motors__type_support.cpp
+[21.180s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/encoder__type_support.cpp
+[21.180s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/include/sdv_msgs/sdv_msgs/msg/detail/buzzer__type_support.cpp
+[21.180s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_typesupport_introspection_cpp.so
+[21.180s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[21.180s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_typesupport_cpp.so
+[21.181s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_typesupport_cpp.so" to ""
+[21.181s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/environment/pythonpath.sh
+[21.181s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/environment/pythonpath.dsv
+[21.181s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs-0.0.1-py3.12.egg-info
+[21.182s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs-0.0.1-py3.12.egg-info/PKG-INFO
+[21.182s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs-0.0.1-py3.12.egg-info/dependency_links.txt
+[21.182s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs-0.0.1-py3.12.egg-info/SOURCES.txt
+[21.183s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs-0.0.1-py3.12.egg-info/top_level.txt
+[21.183s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs
+[21.183s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/_sdv_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[21.183s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/_sdv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[21.183s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/sdv_msgs_s__rosidl_typesupport_c.so
+[21.184s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg
+[21.184s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_motor_driver.py
+[21.184s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_drivers.py
+[21.184s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_battery_s.c
+[21.184s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_sdv_platform_s.c
+[21.184s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_two_motors.py
+[21.184s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_batteries_s.c
+[21.184s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_two_motors_s.c
+[21.184s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_motor_driver_s.c
+[21.184s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_tag_rfid_s.c
+[21.185s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_buzzer.py
+[21.185s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_flexiforce_s.c
+[21.185s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_four_motors.py
+[21.185s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_encoder.py
+[21.185s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_flexiforce.py
+[21.185s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_panel_button.py
+[21.185s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_sdv_platform.py
+[21.186s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_four_motors_s.c
+[21.186s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_imu_raw_s.c
+[21.186s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_ultrasound.py
+[21.187s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_drivers_s.c
+[21.187s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_sdv_status.py
+[21.187s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_tag_rfid.py
+[21.187s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_sdv_status_s.c
+[21.188s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_led.py
+[21.188s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_buzzer_s.c
+[21.188s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_imu_raw.py
+[21.188s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_battery.py
+[21.188s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_led_s.c
+[21.188s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_panel_button_s.c
+[21.188s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_ultrasound_s.c
+[21.188s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/__init__.py
+[21.189s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_encoder_s.c
+[21.189s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_batteries.py
+[21.189s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/sdv_msgs_s__rosidl_typesupport_fastrtps_c.so
+[21.189s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/sdv_msgs_s__rosidl_typesupport_introspection_c.so
+[21.189s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/__init__.py
+[21.189s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/_sdv_msgs_s.ep.rosidl_typesupport_c.c
+[21.243s] Listing '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs'...
+[21.243s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/__init__.py'...
+[21.243s] Listing '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg'...
+[21.244s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/__init__.py'...
+[21.244s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_batteries.py'...
+[21.244s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_battery.py'...
+[21.244s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_buzzer.py'...
+[21.244s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_drivers.py'...
+[21.245s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_encoder.py'...
+[21.245s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_flexiforce.py'...
+[21.245s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_four_motors.py'...
+[21.245s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_imu_raw.py'...
+[21.245s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_led.py'...
+[21.245s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_motor_driver.py'...
+[21.245s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_panel_button.py'...
+[21.245s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_sdv_platform.py'...
+[21.245s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_sdv_status.py'...
+[21.245s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_tag_rfid.py'...
+[21.245s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_two_motors.py'...
+[21.245s] Compiling '/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/msg/_ultrasound.py'...
+[21.251s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/sdv_msgs_s__rosidl_typesupport_fastrtps_c.so
+[21.252s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/sdv_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[21.252s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/sdv_msgs_s__rosidl_typesupport_introspection_c.so
+[21.253s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/sdv_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[21.253s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/sdv_msgs_s__rosidl_typesupport_c.so
+[21.254s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/python3.12/site-packages/sdv_msgs/sdv_msgs_s__rosidl_typesupport_c.so" to ""
+[21.254s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_generator_py.so
+[21.255s] -- Set non-toolchain portion of runtime path of "/home/cafsanchezdi/ros2_ws/install/sdv_msgs/lib/libsdv_msgs__rosidl_generator_py.so" to ""
+[21.255s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Batteries.idl
+[21.255s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Battery.idl
+[21.255s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Buzzer.idl
+[21.255s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Drivers.idl
+[21.255s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Encoder.idl
+[21.255s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Flexiforce.idl
+[21.256s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/FourMotors.idl
+[21.256s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/ImuRaw.idl
+[21.256s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/LED.idl
+[21.257s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/MotorDriver.idl
+[21.257s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/PanelButton.idl
+[21.257s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/SdvPlatform.idl
+[21.257s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/SdvStatus.idl
+[21.258s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/TagRfid.idl
+[21.258s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/TwoMotors.idl
+[21.258s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Ultrasound.idl
+[21.258s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Batteries.msg
+[21.259s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Battery.msg
+[21.259s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Buzzer.msg
+[21.259s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Drivers.msg
+[21.259s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Encoder.msg
+[21.259s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Flexiforce.msg
+[21.260s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/FourMotors.msg
+[21.260s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/ImuRaw.msg
+[21.260s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/LED.msg
+[21.261s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/MotorDriver.msg
+[21.261s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/PanelButton.msg
+[21.261s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/SdvPlatform.msg
+[21.261s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/SdvStatus.msg
+[21.261s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/TagRfid.msg
+[21.262s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/TwoMotors.msg
+[21.262s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/msg/Ultrasound.msg
+[21.262s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/ament_index/resource_index/package_run_dependencies/sdv_msgs
+[21.262s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/ament_index/resource_index/parent_prefix_path/sdv_msgs
+[21.262s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/environment/ament_prefix_path.sh
+[21.263s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/environment/ament_prefix_path.dsv
+[21.263s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/environment/path.sh
+[21.263s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/environment/path.dsv
+[21.264s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/local_setup.bash
+[21.264s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/local_setup.sh
+[21.264s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/local_setup.zsh
+[21.264s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/local_setup.dsv
+[21.264s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/package.dsv
+[21.264s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/ament_index/resource_index/packages/sdv_msgs
+[21.264s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/export_sdv_msgs__rosidl_generator_cExport.cmake
+[21.265s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/export_sdv_msgs__rosidl_generator_cExport-noconfig.cmake
+[21.265s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/export_sdv_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[21.265s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/export_sdv_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[21.266s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/sdv_msgs__rosidl_typesupport_introspection_cExport.cmake
+[21.266s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/sdv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[21.267s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/sdv_msgs__rosidl_typesupport_cExport.cmake
+[21.267s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/sdv_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[21.267s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/export_sdv_msgs__rosidl_generator_cppExport.cmake
+[21.267s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/export_sdv_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[21.267s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/export_sdv_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[21.269s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/sdv_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[21.269s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/sdv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[21.269s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/sdv_msgs__rosidl_typesupport_cppExport.cmake
+[21.269s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/sdv_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[21.269s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/export_sdv_msgs__rosidl_generator_pyExport.cmake
+[21.269s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/export_sdv_msgs__rosidl_generator_pyExport-noconfig.cmake
+[21.269s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/rosidl_cmake-extras.cmake
+[21.269s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.269s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.270s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[21.270s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[21.273s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[21.273s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[21.273s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/sdv_msgsConfig.cmake
+[21.273s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/cmake/sdv_msgsConfig-version.cmake
+[21.274s] -- Installing: /home/cafsanchezdi/ros2_ws/install/sdv_msgs/share/sdv_msgs/package.xml
+[21.275s] Invoked command in '/home/cafsanchezdi/ros2_ws/build/sdv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cafsanchezdi/ros2_ws/build/sdv_msgs

@@ -1,0 +1,11 @@
+{
+  "package_name": "sdv_process",
+  "output_dir": "/home/cafsanchezdi/ros2_ws/build/sdv_process/rosidl_generator_type_description/sdv_process",
+  "idl_tuples": [
+    "/home/cafsanchezdi/ros2_ws/build/sdv_process/rosidl_adapter/sdv_process:msg/FirebaseProcess.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

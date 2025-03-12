@@ -1,0 +1,6 @@
+{
+  "package_name": "sdv_process",
+  "non_idl_tuples": [
+    "/home/cafsanchezdi/ros2_ws/src/sdv_un_ros/sdv_process:msg/FirebaseProcess.msg"
+  ]
+}

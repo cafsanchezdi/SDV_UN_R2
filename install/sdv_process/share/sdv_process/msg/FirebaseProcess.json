@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "sdv_process/msg/FirebaseProcess",
+      "fields": [
+        {
+          "name": "key",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "value",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "sdv_process/msg/FirebaseProcess",
+      "hash_string": "RIHS01_6f2699d487c173391b53b6743f57a41e2d60cb5b2e5f731e70bb5475ff5f1d33"
+    }
+  ]
+}

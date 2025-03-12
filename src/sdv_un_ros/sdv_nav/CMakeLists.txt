@@ -9,7 +9,11 @@ find_package(rclpy REQUIRED)
 install(
   DIRECTORY scripts/
   DESTINATION lib/${PROJECT_NAME}
-  USE_SOURCE_PERMISSIONS
+ 
+)
+install(
+  DIRECTORY launch
+  DESTINATION share/sdv_nav
 )
 
 # Export dependencies
