@@ -21,6 +21,7 @@ def generate_launch_description():
     # Declare arguments
     firebase_arg = DeclareLaunchArgument('firebase', default_value='true', description='Enable Firebase')
     localization_arg = DeclareLaunchArgument('localization', default_value='hector', description='Localization method')
+    platform_camera_arg = DeclareLaunchArgument('platform_camera', default_value='false', description='Enable platform camera')
 
     # Load YAML parameters
     params_file = load_yaml('sdv_nav', 'sdv_params.yaml')
@@ -47,12 +48,29 @@ def generate_launch_description():
         PythonLaunchDescriptionSource([os.path.join(os.environ['HOME'], 'ros2_ws/src/sdv_un_ros/sdv_nav/launch/sdv_nav_launch.py')]),
         launch_arguments={'localization': LaunchConfiguration('localization')}.items()
     )
+    
+    # Include Platform Camera Launch (Conditional)
+    camera_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([os.path.join(os.environ['HOME'], 'ros2_ws/src/sdv_un_ros/sdv_nav/launch/camera_launch.py')]),
+        condition=IfCondition(LaunchConfiguration('platform_camera'))
+    )
+    
+    # Camera Watcher Node (Conditional)
+    camera_watcher = Node(
+        package='sdv_platform',
+        executable='camera_watcher.py',
+        output='screen',
+        condition=IfCondition(LaunchConfiguration('platform_camera'))
+    )
 
     return LaunchDescription([
         firebase_arg,
         localization_arg,
+        platform_camera_arg,
         firebase_initializer,
         firebase_coms,
-        sdv_nav_launch
+        sdv_nav_launch,
+        camera_launch,
+        camera_watcher
     ])
 

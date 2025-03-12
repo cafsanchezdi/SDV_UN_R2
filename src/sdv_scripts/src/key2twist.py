@@ -1,3 +1,23 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+'''
+This aplication allows to control a ROS Based Mobile Robot with the keyboard,
+and needs the 'keyboard_publisher.py' script, that publishes 'keys' messages. 
+This node converts messages from 'keys' topic to 'Twist' messages, that are 
+sended over 'cmd_vel' topic, by default.
+
+This aplication sends 'Twist' messages, that contains linear and angular 
+speeds. Changes in speed values are made with acelerations (ramps).
+
+Parameters that you can configure (speeds and accelerations) are:
+ - linear_scale: sets linear speed in m/s
+ - angular_scale: sets angular speed in rad/s
+ - linear_accel: sets linear acceleration in m/s²
+ - angular_accel: sets angular acceleration in rad/s²
+
+Example of use:
+rosrun sdv_scripts key_to_twist.py _linear_scale:=1.0 _angular_scale:=1.0
+'''
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 

@@ -1,7 +1,0 @@
-/home/cafsanchezdi/ros2_ws/build/sdv_serial/rosidl_adapter/sdv_serial:msg/Encoder.idl
-/home/cafsanchezdi/ros2_ws/build/sdv_serial/rosidl_adapter/sdv_serial:msg/SdvStatus.idl
-/home/cafsanchezdi/ros2_ws/build/sdv_serial/rosidl_adapter/sdv_serial:msg/Ultrasound.idl
-/home/cafsanchezdi/ros2_ws/build/sdv_serial/rosidl_adapter/sdv_serial:msg/Flexiforce.idl
-/home/cafsanchezdi/ros2_ws/build/sdv_serial/rosidl_adapter/sdv_serial:msg/Battery.idl
-/home/cafsanchezdi/ros2_ws/build/sdv_serial/rosidl_adapter/sdv_serial:msg/TagRfid.idl
-/home/cafsanchezdi/ros2_ws/build/sdv_serial/rosidl_adapter/sdv_serial:msg/Motors.idl

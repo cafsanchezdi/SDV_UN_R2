@@ -1,29 +1,33 @@
 
-#ifndef MOTOR_
-#define MOTOR_
+#pragma once
 
-namespace motor
+class Motor
 {
-    class Motor
-    {
-    
-    public:
-        Motor();
-        Motor(double r, bool right_motor);
-        double get_rad_s(double x, double z);
-        double get_pwm_percent(double x, double z);
-        double get_wheel_radius();
-        void set_wheel_separation(double sep);
-        void set_right_motor(bool is_right_motor);
-    private:
-        double wheel_radius = 0.1;
-        double wheel_separation = 0.44010;
-        double wheel_axis_separation = 0.1;
-        bool is_right_motor = true;
-        double motor_position();
-        double const N = 3.2 * 4.0;
-        double last_speed_time_stamp = 0;
-    };
-}; // namespace motor
 
-#endif
+public:
+    Motor();
+    Motor(double r, bool right_motor);
+    double getRadSecs(double x, double z);
+    double getPwmPercent(double x, double z);
+    double getWheelRadius();
+    double getRefSpeedRps();
+    double getActualSpeedRps();
+    void setWheelSeparation(double sep);
+    void setAxisWheelSeparation(double sep);
+    void setRightMotor(bool is_right_motor);
+    void setRefSpeed(double speed_rps);
+    void setActualSpeed(double speed_rps);
+
+private:
+    double const N = 3.2 * 4.0;
+
+    bool is_right_motor = true;
+    double wheel_radius = 0.1;
+    double wheel_separation = 0.44010;
+    double axis_wheel_separation = 0.1;
+    double last_speed_time_stamp = 0;
+    double ref_speed_rps = 0.0;
+    double actual_speed_rps = 0.0;
+    
+    double motorPosition();
+};

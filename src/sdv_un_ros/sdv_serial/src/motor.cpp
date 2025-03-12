@@ -1,63 +1,86 @@
 #include <cmath>
 #include <iostream>
-//Using rclcpp instead of ros/ros.h
-#include "rclcpp/rclcpp.hpp"
+#include <rclcpp/rclcpp.hpp>
 #include <motor/motor.h>
+#include "sdv_msgs/msg/two_motors.hpp"
+#include "sdv_msgs/msg/four_motors.hpp"
 
-namespace motor
+Motor::Motor(double r, bool right_motor)
 {
-    Motor::Motor(double r, bool right_motor)
-    {
-        wheel_radius = r;
-        set_right_motor(right_motor);
-    }
+    wheel_radius = r;
+    setRightMotor(right_motor);
+}
 
-    Motor::Motor() 
-    {
-        wheel_radius = 0.075;
-        set_right_motor(true);
-    }
+Motor::Motor()
+{
+    wheel_radius = 0.075;
+    setRightMotor(true);
+}
 
-    double Motor::get_rad_s(double x, double z)
-    {
-        double vx = x * 0.9;
-        double om = z * 1.8;
-        double r = wheel_radius;
-        double B = wheel_separation;
-        double w_rad_s = (vx / r) + (motor_position() * ((om * B) / (2.0 * r)));
-        return w_rad_s;
-    }
+double Motor::getRadSecs(double x, double z)
+{
+    double vx = x * 0.9;
+    double om = z * 1.8;
+    double r = wheel_radius;
+    double B = wheel_separation;
+    double w_rad_s = (vx / r) + (motorPosition() * ((om * B) / (2.0 * r)));
+    return w_rad_s;
+}
 
-    double Motor::get_pwm_percent(double x, double z)
-    {
-        double w_rad_s = get_rad_s(x, z);
-        if (w_rad_s >= 0.0)
-            w_rad_s = 80.0 * w_rad_s / N + 10.0;
-        else
-            w_rad_s = 80.0 * w_rad_s / N - 10.0;
-        
-        // Using clock to update the last speed timestamp.
-        last_speed_time_stamp = rclcpp::Clock(RCL_SYSTEM_TIME).now().seconds();
-        return w_rad_s;
-    }
+double Motor::getPwmPercent(double x, double z)
+{
+    double w_rad_s = getRadSecs(x, z);
+    if (w_rad_s >= 0.0)
+        w_rad_s = 80.0 * w_rad_s / N + 10.0;
+    else
+        w_rad_s = 80.0 * w_rad_s / N - 10.0;
 
-    double Motor::get_wheel_radius()
-    {
-        return wheel_radius;
-    }
+    last_speed_time_stamp = rclcpp::Clock().now().seconds();  // Migrado desde ROS 1
+    return w_rad_s;
+}
 
-    void Motor::set_wheel_separation(double sep)
-    {
-        wheel_separation = sep;
-    }
+double Motor::getWheelRadius()
+{
+    return 0;
+}
 
-    double Motor::motor_position()
-    {
-        return is_right_motor ? 1.0 : -1.0;
-    }
+void Motor::setWheelSeparation(double sep)
+{
+    wheel_separation = sep;
+}
 
-    void Motor::set_right_motor(bool right_motor)
-    {
-        is_right_motor = right_motor;
-    }
-}; // namespace motor
+void Motor::setAxisWheelSeparation(double sep)
+{
+    axis_wheel_separation = sep;
+}
+
+double Motor::motorPosition()
+{
+    return is_right_motor ? 1.0 : -1.0;
+}
+
+void Motor::setRightMotor(bool right_motor)
+{
+    is_right_motor = right_motor;
+}
+
+void Motor::setRefSpeed(double speed_rps)
+{
+    ref_speed_rps = speed_rps;
+}
+
+void Motor::setActualSpeed(double speed_rps)
+{
+    actual_speed_rps = speed_rps;
+}
+
+double Motor::getRefSpeedRps()
+{
+    return ref_speed_rps;
+}
+
+double Motor::getActualSpeedRps()
+{
+    return actual_speed_rps;
+}
+

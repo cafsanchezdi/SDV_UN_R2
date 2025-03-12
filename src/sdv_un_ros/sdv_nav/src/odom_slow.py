@@ -32,6 +32,16 @@ class OdomSlow(Node):
 
 
 def main():
+    """
+    Main entry point for the Odom Slow Node.
+
+    This function initializes ROS2, creates an instance of the OdomSlow class,
+    and starts the main loop with rclpy.spin().
+
+    The main loop runs until a KeyboardInterrupt is received, at which point the
+    node is destroyed and ROS2 is shut down.
+
+    """
     rclpy.init()
     node = OdomSlow()
 
